@@ -1,0 +1,260 @@
+/*!======== Google Fonts ========*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap');
+
+/*!======== Varibales ========*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+/*!================*/
+
+/*!======== My Logo ========*/
+.logo {
+    width: 160px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    background-color: black; 
+    padding: 10px; 
+    border-radius: 10px; 
+}
+
+.logo img {
+    display: block;
+    width: auto; 
+    max-width: 100%; 
+}
+
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-link:hover {
+    background-color: transparent; 
+}
+/*!================*/
+
+/*!======== Navbar Logo ========*/
+/* Navbar */
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Navbar Logo */
+.navbar a {
+    float: left;
+    display: flex; 
+    align-items: center; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+/* Hamburger Menu */
+.navbar .icon {
+    display: none;
+    margin-top: 13px;
+    color: white;
+}
+/*!================*/
+
+/*!======== Dropdown Tabs ========*/
+/* General Dropdown */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown Buttons */
+.dropdown .dropbtn {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-right: 8px;
+    background-color: transparent;
+    margin-top: 21px;
+}
+
+/* Dropdown Buttons Hover */
+.dropdown .dropbtn:hover {
+    background-color: #ebebeb;
+    color: black;
+}
+
+/* Dropdown Buttons Active Tab */
+.dropdown .dropbtn.active-tab {
+    background-color: #ebebeb;
+    color: black;
+}
+/*!================*/
+
+/*!======== Dropdown Content ========*/
+/* Dropdown Content Box */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    overflow: hidden;
+    padding: 5px;
+    width: max-content;
+}
+
+/* Dropdown Content Text */
+.dropdown-content a {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    text-transform: capitalize; 
+    font-size: 12px;
+}
+
+/* Dropdown Content Images */
+.dropdown-content a img {
+    width: 20px; 
+    margin-right: 5px; 
+}
+
+/* Dropdown Content Styling */
+.dropdown.active .dropdown-content {
+    display: grid;
+    gap: 3px;
+    left: 0;
+    margin-top: 25px;
+}
+
+/* NHL */
+.dropdown-content.nhl {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin-left: 15px;
+}
+
+/* OP */
+.dropdown-content.op {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin-left: 115px;
+}
+
+/* PWHL */
+.dropdown-content.pwhl {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-left: 550px;
+}
+
+/* Players */
+.dropdown-content.players {
+    margin-left: 700px;
+}
+
+/* Affiliations */
+.dropdown-content.affiliations {
+    margin-left: 850px;
+}
+
+/* Hover */
+.dropdown-content a:not(.non-link):hover {
+  background-color: #ebebeb;
+  color: black;
+}
+
+/* Division Names */
+.dropdown-content .center-align {
+    text-align: center; 
+}
+
+/* Conference Names */
+.dropdown-content .title {
+    grid-column: span 2; 
+    text-align: center;
+    font-size: 18px; 
+}
+/*!================*/
+
+/*!======== Media Query ========*/
+@media screen and (max-width: 986px) {
+
+    /* Hides links in the navbar (except the logo) */
+    .navbar a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+    }
+
+    /* Move the hamburger icon to the right and make it visible */
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+
+    /* Positioning for the navbar */
+    .navbar.responsive {
+        position: relative;
+    }
+
+    /* Positioning for the hamburger icon */
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    /* Adjust styling for links in the navbar */
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    /* Adjust styling for the dropdown */
+    .navbar.responsive .dropdown {
+        float: none;
+    }    
+    
+    /* Adjust styling for dropdown content */
+    .navbar.responsive .dropdown-content {
+        position: relative;
+        margin-left: 0px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        background-color: black; 
+    }
+
+    /* Styling for dropdown content links */
+    .navbar.responsive .dropdown-content a {
+        padding: 15px; 
+        color: white;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-size: 15px;
+        background-color: black; 
+    }
+
+    /* Hover effect for dropdown content links */
+    .navbar.responsive .dropdown-content a:hover {
+        color: black;
+        background-color: #ebebeb;
+    }
+
+    /* Adjust styling for the dropbtn */
+    .navbar.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+/*!================*/

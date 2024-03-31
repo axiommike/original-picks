@@ -1,0 +1,33 @@
+/*!======== Google Fonts ========*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap');
+
+/*!======== Varibales ========*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+/*!================*/
+
+/*!======== Search Bar ========*/
+/* Search Bar */
+#myInput {
+    width: 300px; 
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fff; 
+    color: #333; 
+    font-size: 16px; 
+}
+
+/* Search Bar when clicked */
+#myInput:focus {
+    outline: none;
+    border-color: #007BFF; 
+}
+/*!================*/
+
+

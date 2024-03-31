@@ -1,0 +1,110 @@
+/*!======== Google Fonts ========*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap');
+
+/*!======== Varibales ========*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+/*!================*/
+
+/*!======== Content ========*/
+/* Content Container */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Page Title */
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+/* Page Descriptions */
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+/*!================*/
+
+/*!======== Buttons ========*/
+/* Button Container */
+.button-container {
+    width: 100%;
+    top: 50%;
+    transform: translateY(0%);
+    text-align: center;
+    color: #fff;
+}
+
+/* Buttons */
+.button-container button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: transparent;
+    color: #000;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-color: #000;
+    transition: color 0.5s; 
+}
+
+/* Button Contents */
+.button-container button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Colour Transition */
+span {
+    background: #02066F;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+/* Hover Colour Effect */
+.button-container button:hover span {
+    width: 100%;
+}
+
+/* Hover Effect */
+.button-container button:hover {
+    color: #fff; 
+}
+/*!================*/
+
+/*!======== Media Query ========*/
+@media screen and (max-width: 986px) {
+
+    /* Adjust styling for page title */
+    .content h1 {
+        font-size: 40px; /* Adjust the font size as needed for smaller screens */
+    }
+}
+
+@media screen and (max-width: 395px) {
+
+    /* Adjust styling for page title */
+    .content h1 {
+        font-size: 35px; /* Adjust the font size as needed for smaller screens */
+    }
+}
+/*!================*/

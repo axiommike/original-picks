@@ -9,12 +9,99 @@
 }
 /*!================*/
 
+/*!======== Data Table ========*/
+/* Table Container */
+.custom-table-container {
+    overflow-x: auto;
+    width: 100%; /* Set a fixed width for the container */
+}
+
+/* Table */
+.custom-table {
+    width: 100%; /* This ensures that table does not expand beyond its content */
+    border-collapse: collapse;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Transparent border */
+}
+
+/* Logo */
+.title-logo {
+    text-align: center;
+}
+
+/* Logo Spacing */
+.logo-container {
+    margin-top: 10px; 
+}
+
+/* Image Size */
+.title-logo img {
+    width: 70px; 
+    height: 70px; 
+}
+
+/* Table Title */
+h3 {
+    text-transform: uppercase;
+}
+
+/* DataTables Search Bar */
+.dataTables_filter input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* DataTables Pagination */
+.dataTables_paginate {
+    margin-top: 10px;
+}
+
+.dataTables_paginate .paginate_button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    color: black;
+    background-color: #e9e9e9;
+}
+
+.dataTables_paginate .paginate_button:hover {
+    background-color: white;
+}
+
+/* DataTables Info */
+.dataTables_info {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* DataTables Table Length */
+.dataTables_length {
+    margin-top: 10px;
+    color: #666;
+}
+/*!================*/
+
 /*!======== Media Query ========*/
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 900px) {
 
     /* Entire Table Font */
     th, td {
-        font-size: 10px;
+        font-size: 9px;
+    }
+
+    .w3-button {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 596px) {
+
+    /* Entire Table Font */
+    th, td {
+        font-size: 6px;
     }
 }
 /*!================*/

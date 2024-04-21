@@ -30,7 +30,7 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> 
 
     <!--====== Table ======-->
-    <?php include 'pwhlTable.php'; ?>
+    <?php include 'table_pwhl.php'; ?>
 
     <title>PWHL Toronto - PWHL Rosters - NHL Original Picks</title>
 </head>
@@ -47,12 +47,12 @@
         <div class="w3-responsive">
             <div class="title-logo">
                 <h2>PWHL Toronto</h2>
-                <img src="images/pwhlTOR_logo.png" alt="Title Logo">
+                <img src="images/pwhl-toronto.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="pwhl_OTT.php" class="w3-button w3-text-black">&#10094; Previous</a>
+                <a href="pwhl_OTT.php" class="w3-button w3-text-black">&#10094; PWHL Ottawa</a>
             </div>
 
             <!--====== Forwards Table ======-->

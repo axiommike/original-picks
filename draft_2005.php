@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
     <!--====== CSS ======-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/table.css">
-    <link rel="stylesheet" href="css/searchbar.css">
-
-    <!--====== JS ======-->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
+    <link rel="stylesheet" href="css/draft.css">
     <style>
-        /*!======== Background Image ========*/
+        /*! Background Image */
         .banner {
             width: 100%;
             min-height: 100vh;
@@ -24,20 +20,19 @@
             background-attachment: fixed;
         }
 
+        /*! Table Padding */
         .w3-responsive {
             padding: 20px;
         }
-
-        .fa-check {
-            color: green;
-        }
-        
-        .fa-times {
-            color: red;
-        }
     </style>
 
-    <title>AHL Teams - Affiliation History - NHL Original Picks</title>
+    <!--====== JS ======-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> 
+
+    <!--====== Table ======-->
+    <?php include 'table_draft.php'; ?>
+
+    <title>2005 Draft - NHL Draft Class - NHL Original Picks</title>
 </head>
 
 <body>
@@ -50,29 +45,24 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>AHL</h2>
-                <img src="images/ahl_logo.png" alt="Title Logo">
+                <h2>2005 NHL DRAFT</h2>
+                <img src="images/2005.png" alt="Title Logo">
             </div>
-
-            <!--====== Table Search Bar ======-->
-            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search teams...">
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="echl.php" class="w3-button w3-right w3-text-black">Next &#10095;</a>
+                <a href="draft_2004.php" class="w3-button w3-text-black">&#10094; 2004 NHL Draft</a>
+                <a href="draft_2006.php" class="w3-button w3-right w3-text-black">2006 NHL Draft &#10095;</a>
             </div>
 
-            <?php 
-            $league = "AHL";
-            include 'affiliationTable.php'; 
-            ?>
+            <!--====== Forwards Table ======-->
+            <?php generateTable($pdo, '2005', 100, 'Draft Rankings'); ?>
 
         </div>
     </header>
 
     <!--====== JS ======-->
-    <script src="js/searchFunction.js"></script>
     <script src="js/navbar.js"></script>
-    
+
 </body>
 </html>

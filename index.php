@@ -3,15 +3,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3JNM0GDKQ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-R3JNM0GDKQ');
-  </script>
   <!--====== CSS ======-->
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/index.css">

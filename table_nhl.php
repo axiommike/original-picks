@@ -23,7 +23,7 @@ function generateTable($pdo, $signedTeam, $position, $limit, $title, $averageCou
 
     // Display average rating next to the table title
     echo "<h3>$title <span style='font-size: 20px;'>- " . number_format($averageRating) . "</span></h3>";
-    echo "<table class='sortable custom-table'>";
+    echo "<table class='sortable custom-table' id='playerTable'>";
     echo "<thead style='background-color: black; color: white;'>";
     echo "<tr><th class='w3-left-align'>&nbsp;&nbsp;&nbsp;Player Name</th><th class='w3-center'>Jersey</th><th class='w3-center'>Cap Hit</th><th class='w3-center'>Term</th><th class='w3-center'>Rights</th><th class='w3-center'>NHL Rating</th></tr>";
     echo "</thead>";
@@ -35,7 +35,8 @@ function generateTable($pdo, $signedTeam, $position, $limit, $title, $averageCou
 
         // Check if contract type is Two-Way
         $capHitTextColor = $row['contractType'] === 'Two-Way' ? '#228B22' : $textColor;
-
+        
+        // Displays table rows
         echo "<tr style='background-color: $backgroundColor;' onmouseover=\"this.style.backgroundColor='white';\" onmouseout=\"this.style.backgroundColor='$backgroundColor';\">";
         echo "<td class='w3-left-align' style='color: $textColor;'>&nbsp;&nbsp;&nbsp;{$row['playerName']}  {$row['captain']}</td>";
         echo "<td style='color: $textColor;'>{$row['jersey']}</td>";
@@ -49,4 +50,3 @@ function generateTable($pdo, $signedTeam, $position, $limit, $title, $averageCou
     echo "</tbody>";
     echo "</table>";
 }
-?>

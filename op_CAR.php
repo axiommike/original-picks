@@ -30,7 +30,7 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> 
 
     <!--====== Table ======-->
-    <?php include 'opTable.php'; ?>
+    <?php include 'table_originalPicks.php'; ?>
 
     <title>Carolina Hurricanes - Original Picks - NHL Original Picks</title>
 </head>
@@ -47,13 +47,13 @@
             <div class="title-logo">
                 <h2>CAROLINA HURRICANES</h2>
                 <h2>ORIGINAL PICKS</h2>
-                <img src="images/car_logo.png" alt="Title Logo">
+                <img src="images/logo-hurricanes.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="op_CGY.php" class="w3-button w3-text-black">&#10094; Previous</a>
-                <a href="op_CHI.php" class="w3-button w3-right w3-text-black">Next &#10095;</a>
+                <a href="op_CGY.php" class="w3-button w3-text-black">&#10094; Calgary Flames</a>
+                <a href="op_CHI.php" class="w3-button w3-right w3-text-black">Chicago Blackhawks &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->

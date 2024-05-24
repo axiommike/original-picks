@@ -12,7 +12,6 @@
         <button class="dropbtn" onclick="toggleDropdown(this)">NHL Rosters</button>
         <div class="dropdown-content nhl">
             <a href="nhl_ANA.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-ducks.png" alt="Anaheim Ducks Logo">Anaheim Ducks</a>
-            <a href="nhl_ARI.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-coyotes.png" alt="Arizona Coyotes Logo">Arizona Coyotes</a>
             <a href="nhl_BOS.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-bruins.png" alt="Boston Bruins Logo">Boston Bruins</a>
             <a href="nhl_BUF.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-sabres.png" alt="Buffalo Sabres Logo">Buffalo Sabres</a>
             <a href="nhl_CGY.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-flames.png" alt="Calgary Flames Logo">Calgary Flames</a>
@@ -39,6 +38,7 @@
             <a href="nhl_STL.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-blues.png" alt="St. Louis Blues Logo">St. Louis Blues</a>
             <a href="nhl_TBL.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-lightning.png" alt="Tampa Bay Lightning Logo">Tampa Bay Lightning</a>
             <a href="nhl_TOR.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-mapleLeafs.png" alt="Toronto Maple Leafs Logo">Toronto Maple Leafs</a>
+            <a href="nhl_UTH.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-utah.png" alt="Utah Logo">Utah</a>
             <a href="nhl_VAN.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-canucks.png" alt="Vancouver Canucks Logo">Vancouver Canucks</a>
             <a href="nhl_VGK.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-goldenKnights.png" alt="Vegas Golden Knights Logo">Vegas Golden Knights</a>
             <a href="nhl_WSH.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-capitals.png" alt="Washington Capitals Logo">Washington Capitals</a>
@@ -78,6 +78,7 @@
             <a href="op_STL.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-blues.png" alt="St. Louis Blues Logo">St. Louis Blues</a>
             <a href="op_TBL.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-lightning.png" alt="Tampa Bay Lightning Logo">Tampa Bay Lightning</a>
             <a href="op_TOR.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-mapleLeafs.png" alt="Toronto Maple Leafs Logo">Toronto Maple Leafs</a>
+            <a href="op_UTH.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-utah.png" alt="Utah Logo">Utah</a>
             <a href="op_VAN.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-canucks.png" alt="Vancouver Canucks Logo">Vancouver Canucks</a>
             <a href="op_VGK.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-goldenKnights.png" alt="Vegas Golden Knights Logo">Vegas Golden Knights</a>
             <a href="op_WSH.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-capitals.png" alt="Washington Capitals Logo">Washington Capitals</a>
@@ -104,6 +105,7 @@
         <div class="dropdown-content players">
             <a href="database_nhl.php" class="dropdown-link"><img class="dropdown-img" src="images/nhl.png" alt="Player Database Logo">NHL Database</a>
             <a href="database_pwhl.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl.png" alt="PWHL Database Logo">PWHL Database</a>
+            <a href="database_fa.php" class="dropdown-link"><img class="dropdown-img" src="images/nhl.png" alt="NHL Free Agents Logo">NHL Free Agents</a>
         </div>
     </div> 
 

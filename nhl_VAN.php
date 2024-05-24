@@ -52,7 +52,7 @@
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="nhl_TOR.php" class="w3-button w3-text-black">&#10094; Toronto Maple Leafs</a>
+                <a href="nhl_UTH.php" class="w3-button w3-text-black">&#10094; Utah</a>
                 <a href="nhl_VGK.php" class="w3-button w3-right w3-text-black">Vegas Golden Knights &#10095;</a>
             </div>
 

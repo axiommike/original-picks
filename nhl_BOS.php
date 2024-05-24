@@ -52,7 +52,7 @@
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="nhl_ARI.php" class="w3-button w3-text-black">&#10094; Arizona Coyotes</a>
+                <a href="nhl_ANA.php" class="w3-button w3-text-black">&#10094; Anaheim Ducks</a>
                 <a href="nhl_BUF.php" class="w3-button w3-right w3-text-black">Buffalo Sabres &#10095;</a>
             </div>
 

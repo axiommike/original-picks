@@ -53,7 +53,7 @@
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
                 <a href="op_TBL.php" class="w3-button w3-text-black">&#10094; Tampa Bay Lightning</a>
-                <a href="op_VAN.php" class="w3-button w3-right w3-text-black">Vancouver Canucks &#10095;</a>
+                <a href="op_UTH.php" class="w3-button w3-right w3-text-black">Utah &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->

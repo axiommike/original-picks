@@ -51,7 +51,7 @@
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="nhl_ARI.php" class="w3-button w3-right w3-text-black">Arizona Coyotes &#10095;</a>
+                <a href="nhl_BOS.php" class="w3-button w3-right w3-text-black">Boston Bruins &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->

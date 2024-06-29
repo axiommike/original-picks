@@ -8,16 +8,7 @@
     font-family: "Nunito", sans-serif;
 }
 /*!================*/
-
 /*!======== Data Table ========*/
-/* Table */
-.custom-table {
-    width: 100%;
-    border-collapse: collapse;
-    padding: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.5); /* Transparent border */
-}
-
 /* Logo */
 .title-logo {
     text-align: center;
@@ -30,13 +21,18 @@
 
 /* Image Size */
 .title-logo img {
-    width: 70px; 
-    height: 70px; 
+    width: 80px; 
+    height: 80px; 
 }
 
 /* Table Title */
 h2 {
     text-transform: uppercase;
+}
+
+/* Coach and GM Title */
+.team-info h3 {
+    font-size: 15px; 
 }
 
 /* DataTables Search Bar */

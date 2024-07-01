@@ -24,6 +24,26 @@
         .w3-responsive {
             padding: 20px;
         }
+
+        /* Table */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            padding: 30px;
+            border: 1px solid black; /* Transparent border */
+            background-color: white;
+        }
+
+        .custom-table th {
+            color: #fff; /* Change to your desired text color */
+            background-color: #6cace4;
+        }
+
+        /* Image Size */
+        .title-logo img {
+            width: 80px; 
+            height: 80px; 
+        }
     </style>
 
     <!--====== JS ======-->
@@ -32,11 +52,10 @@
     <!--====== Table ======-->
     <?php include 'table_nhl.php'; ?>
 
-    <title>Utah - NHL Rosters - NHL Original Picks</title>
+    <title>Utah Hockey Club - NHL Rosters - NHL Original Picks</title>
 </head>
 
 <body>
-    
     <!--====== Background Image ======-->
     <header class="banner">
 
@@ -46,8 +65,14 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>UTAH</h2>
-                <img src="images/logo-utah.png" alt="Title Logo">
+                <h2>Utah Hockey Club</h2>
+
+                <div class="team-info">
+                    <h3><strong>Coach:</strong> Andre Tourigny</h3>
+                    <h3><strong>General Manager:</strong> Bill Armstrong</h3>
+                 </div>  
+
+                <img src="images/logo-hockeyclub.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
@@ -57,13 +82,13 @@
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateTable($pdo, 'Utah', 'F', 40, 'Forwards', 6); ?>
+            <?php generateTable($pdo, 'Utah Hockey Club', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateTable($pdo, 'Utah', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateTable($pdo, 'Utah Hockey Club', 'D', 20, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
-            <?php generateTable($pdo, 'Utah', 'G', 10, 'Goalies', 1); ?>
+            <?php generateTable($pdo, 'Utah Hockey Club', 'G', 10, 'Goalies', 1); ?>
 
         </div>
     </header>
@@ -73,4 +98,3 @@
 
 </body>
 </html>
-           

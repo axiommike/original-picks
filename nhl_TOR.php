@@ -24,6 +24,26 @@
         .w3-responsive {
             padding: 20px;
         }
+
+        /* Table */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            padding: 30px;
+            border: 1px solid black; /* Transparent border */
+            background-color: white;
+        }
+
+        .custom-table th {
+            color: #fff; /* Change to your desired text color */
+            background-color: #00205B;
+        }
+
+        /* Image Size */
+        .title-logo img {
+            width: 80px; 
+            height: 80px; 
+        }
     </style>
 
     <!--====== JS ======-->
@@ -36,7 +56,6 @@
 </head>
 
 <body>
-    
     <!--====== Background Image ======-->
     <header class="banner">
 
@@ -47,13 +66,19 @@
         <div class="w3-responsive">
             <div class="title-logo">
                 <h2>Toronto Maple Leafs</h2>
-                <img src="images/logo-mapleLeafs.png" alt="Title Logo">
+
+                <div class="team-info">
+                    <h3><strong>Coach:</strong> Craig Berube</h3>
+                    <h3><strong>General Manager:</strong> Brad Treviling</h3>
+                 </div>  
+
+                <img src="images/logo-mapleleafs.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
                 <a href="nhl_TBL.php" class="w3-button w3-text-black">&#10094; Tampa Bay Lightning</a>
-                <a href="nhl_UTH.php" class="w3-button w3-right w3-text-black">Utah &#10095;</a>
+                <a href="nhl_UTH.php" class="w3-button w3-right w3-text-black">Utah Hockey Club &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->
@@ -73,4 +98,3 @@
 
 </body>
 </html>
-           

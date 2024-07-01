@@ -24,6 +24,26 @@
         .w3-responsive {
             padding: 20px;
         }
+
+        /* Table */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            padding: 30px;
+            border: 1px solid black; /* Transparent border */
+            background-color: white;
+        }
+
+        .custom-table th {
+            color: #fff; /* Change to your desired text color */
+            background-color: #041E42;
+        }
+
+        /* Image Size */
+        .title-logo img {
+            width: 80px; 
+            height: 80px; 
+        }
     </style>
 
     <!--====== JS ======-->
@@ -36,7 +56,6 @@
 </head>
 
 <body>
-    
     <!--====== Background Image ======-->
     <header class="banner">
 
@@ -47,6 +66,12 @@
         <div class="w3-responsive">
             <div class="title-logo">
                 <h2>Winnipeg Jets</h2>
+
+                <div class="team-info">
+                    <h3><strong>Coach:</strong> Scott Arniel</h3>
+                    <h3><strong>General Manager:</strong> Kevin Cheveldayoff</h3>
+                 </div>  
+
                 <img src="images/logo-jets.png" alt="Title Logo">
             </div>
 
@@ -72,4 +97,3 @@
 
 </body>
 </html>
-           

@@ -24,6 +24,26 @@
         .w3-responsive {
             padding: 20px;
         }
+
+        /* Table */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            padding: 30px;
+            border: 1px solid black; /* Transparent border */
+            background-color: white;
+        }
+
+        .custom-table th {
+            color: #fff; /* Change to your desired text color */
+            background-color: #002654;
+        }
+
+        /* Image Size */
+        .title-logo img {
+            width: 80px; 
+            height: 80px; 
+        }
     </style>
 
     <!--====== JS ======-->
@@ -36,7 +56,6 @@
 </head>
 
 <body>
-    
     <!--====== Background Image ======-->
     <header class="banner">
 
@@ -47,7 +66,13 @@
         <div class="w3-responsive">
             <div class="title-logo">
                 <h2>Columbus Blue Jackets</h2>
-                <img src="images/logo-blueJackets.png" alt="Title Logo">
+
+                <div class="team-info">
+                    <h3><strong>Coach:</strong> <i style="color:red;">Vacant</i></h3>
+                    <h3><strong>General Manager:</strong> Don Waddell</h3>
+                 </div>  
+
+                <img src="images/logo-bluejackets.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
@@ -73,4 +98,3 @@
 
 </body>
 </html>
-           

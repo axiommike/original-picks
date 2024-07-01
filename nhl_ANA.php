@@ -38,6 +38,12 @@
             color: #fff; /* Change to your desired text color */
             background-color: #F47A38;
         }
+
+        /* Image Size */
+        .title-logo img {
+            width: 90px; 
+            height: 80px; 
+        }
     </style>
 
     <!--====== JS ======-->

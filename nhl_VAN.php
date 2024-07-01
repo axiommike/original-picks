@@ -24,6 +24,26 @@
         .w3-responsive {
             padding: 20px;
         }
+
+        /* Table */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            padding: 30px;
+            border: 1px solid black; /* Transparent border */
+            background-color: white;
+        }
+
+        .custom-table th {
+            color: #fff; /* Change to your desired text color */
+            background-color: #00205B;
+        }
+
+        /* Image Size */
+        .title-logo img {
+            width: 80px; 
+            height: 80px; 
+        }
     </style>
 
     <!--====== JS ======-->
@@ -36,7 +56,6 @@
 </head>
 
 <body>
-    
     <!--====== Background Image ======-->
     <header class="banner">
 
@@ -47,12 +66,18 @@
         <div class="w3-responsive">
             <div class="title-logo">
                 <h2>Vancouver Canucks</h2>
+
+                <div class="team-info">
+                    <h3><strong>Coach:</strong> Rick Tocchet</h3>
+                    <h3><strong>General Manager:</strong> Patrik Allvin</h3>
+                 </div>  
+
                 <img src="images/logo-canucks.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="nhl_UTH.php" class="w3-button w3-text-black">&#10094; Utah</a>
+                <a href="nhl_UTH.php" class="w3-button w3-text-black">&#10094; Utah Hockey Club</a>
                 <a href="nhl_VGK.php" class="w3-button w3-right w3-text-black">Vegas Golden Knights &#10095;</a>
             </div>
 
@@ -73,4 +98,3 @@
 
 </body>
 </html>
-           

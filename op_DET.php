@@ -24,6 +24,26 @@
         .w3-responsive {
             padding: 20px;
         }
+
+        /* Table */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            padding: 30px;
+            border: 1px solid black; /* Transparent border */
+            background-color: white;
+        }
+
+        .custom-table th {
+            color: #fff; /* Change to your desired text color */
+            background-color: #CE1126;
+        }
+
+        /* Image Size */
+        .title-logo img {
+            width: 90px; 
+            height: 70px; 
+        }
     </style>
 
     <!--====== JS ======-->
@@ -46,8 +66,8 @@
         <div class="w3-responsive">
             <div class="title-logo">
                 <h2>Detroit Red Wings</h2>
-                <h2>ORIGINAL PICKS</h2>
-                <img src="images/logo-redWings.png" alt="Title Logo">
+
+                <img src="images/logo-redwings.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
@@ -73,6 +93,3 @@
 
 </body>
 </html>
-            
-
-          

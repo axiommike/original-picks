@@ -66,6 +66,7 @@
         <div class="w3-responsive">
             <div class="title-logo">
                 <h2>Columbus Blue Jackets</h2>
+                <h2>ORIGINAL PICKS</h2>
 
                 <img src="images/logo-bluejackets.png" alt="Title Logo">
             </div>

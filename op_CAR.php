@@ -66,6 +66,7 @@
         <div class="w3-responsive">
             <div class="title-logo">
                 <h2>Carolina Hurricanes</h2>
+                <h2>ORIGINAL PICKS</h2>
 
                 <img src="images/logo-hurricanes.png" alt="Title Logo">
             </div>

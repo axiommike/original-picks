@@ -3,7 +3,7 @@ require("includes/db.inc.php");
 
 function generateOriginalPickTable($pdo, $originalPick, $position, $limit, $title, $averageCount)
 {
-    $stmt = $pdo->prepare('SELECT * FROM nhl_player_data WHERE originalPick = :originalPick, position = :position, signedTeam != "Free Agent" ORDER BY nhlRating DESC, capHit DESC, term DESC LIMIT :limit');
+    $stmt = $pdo->prepare('SELECT * FROM nhl_player_data WHERE originalPick = :originalPick AND position = :position AND signedTeam != "Free Agent" ORDER BY nhlRating DESC, capHit DESC, term DESC LIMIT :limit');
     $stmt->bindParam(':originalPick', $originalPick);
     $stmt->bindParam(':position', $position);
     $stmt->bindParam(':limit', $limit, PDO::PARAM_INT);

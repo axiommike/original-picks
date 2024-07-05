@@ -24,6 +24,26 @@
         .w3-responsive {
             padding: 20px;
         }
+
+        /* Table */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            padding: 30px;
+            border: 1px solid black; /* Transparent border */
+            background-color: white;
+        }
+
+        .custom-table th {
+            color: #fff; /* Change to your desired text color */
+            background-color: #6cace4;
+        }
+
+        /* Image Size */
+        .title-logo img {
+            width: 80px; 
+            height: 80px; 
+        }
     </style>
 
     <!--====== JS ======-->
@@ -32,7 +52,7 @@
     <!--====== Table ======-->
     <?php include 'table_originalPicks.php'; ?>
 
-    <title>Utah - Original Picks - NHL Original Picks</title>
+    <title>Utah Hockey Club - Original Picks - NHL Original Picks</title>
 </head>
 
 <body>
@@ -45,9 +65,10 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>UTAH</h2>
-                <h2>ORIGINAL PICKS</h2>
-                <img src="images/logo-utah.png" alt="Title Logo">
+                <h2>Utah Hockey Club</h2>
+                <h2>ORIGINAL PICKS</h2> 
+
+                <img src="images/logo-hockeyclub.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
@@ -57,13 +78,13 @@
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateOriginalPickTable($pdo, 'Utah', 'F', 40, 'Forwards', 6); ?>
+            <?php generateOriginalPickTable($pdo, 'Utah Hockey Club', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateOriginalPickTable($pdo, 'Utah', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateOriginalPickTable($pdo, 'Utah Hockey Club', 'D', 20, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
-            <?php generateOriginalPickTable($pdo, 'Utah', 'G', 10, 'Goalies', 1); ?>
+            <?php generateOriginalPickTable($pdo, 'Utah Hockey Club', 'G', 10, 'Goalies', 1); ?>
 
         </div>
     </header>
@@ -73,6 +94,3 @@
 
 </body>
 </html>
-            
-
-          

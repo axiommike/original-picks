@@ -24,6 +24,26 @@
         .w3-responsive {
             padding: 20px;
         }
+
+        /* Table */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            padding: 30px;
+            border: 1px solid black; /* Transparent border */
+            background-color: white;
+        }
+
+        .custom-table th {
+            color: #fff; /* Change to your desired text color */
+            background-color: #00205B;
+        }
+
+        /* Image Size */
+        .title-logo img {
+            width: 80px; 
+            height: 80px; 
+        }
     </style>
 
     <!--====== JS ======-->
@@ -46,13 +66,14 @@
         <div class="w3-responsive">
             <div class="title-logo">
                 <h2>Vancouver Canucks</h2>
-                <h2>ORIGINAL PICKS</h2>
+                <h2>ORIGINAL PICKS</h2> 
+
                 <img src="images/logo-canucks.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="op_UTH.php" class="w3-button w3-text-black">&#10094; Utah</a>
+                <a href="op_UTH.php" class="w3-button w3-text-black">&#10094; Utah Hockey Club</a>
                 <a href="op_VGK.php" class="w3-button w3-right w3-text-black">Vegas Golden Knights &#10095;</a>
             </div>
 
@@ -73,6 +94,3 @@
 
 </body>
 </html>
-            
-
-          

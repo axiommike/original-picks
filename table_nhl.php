@@ -1,14 +1,6 @@
 <?php
 require("includes/db.inc.php");
 
-// Function to get the coach and general manager from the database
-function getTeamInfo($pdo, $team) {
-    $stmt = $pdo->prepare("SELECT coach, general_manager FROM staff_data WHERE nhl_team = :nhl_team");
-    $stmt->bindParam(':nhl_team', $team);
-    $stmt->execute();
-    return $stmt->fetch(PDO::FETCH_ASSOC);
-}
-
 function generateTable($pdo, $signedTeam, $position, $limit, $title, $averageCount)
 {
     $stmt = $pdo->prepare('SELECT * FROM nhl_player_data WHERE signedTeam = :signedTeam AND position = :position ORDER BY nhlRating DESC, capHit DESC, term DESC LIMIT :limit');

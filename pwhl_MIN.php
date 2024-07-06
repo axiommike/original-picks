@@ -24,6 +24,26 @@
         .w3-responsive {
             padding: 20px;
         }
+
+        /* Table */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            padding: 30px;
+            border: 1px solid black; /* Transparent border */
+            background-color: white;
+        }
+
+        .custom-table th {
+            color: #fff; /* Change to your desired text color */
+            background-color: #2d1a47;
+        }
+
+        /* Image Size */
+        .title-logo img {
+            width: 200px; 
+            height: 100px; 
+        }
     </style>
 
     <!--====== JS ======-->
@@ -36,7 +56,6 @@
 </head>
 
 <body>
-    
     <!--====== Background Image ======-->
     <header class="banner">
 
@@ -46,7 +65,13 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>PWHL MINNESOTA</h2>
+                <h2>PWHL Minnesota</h2>
+
+                <div class="team-info">
+                    <h3><strong>Coach:</strong> Ken Klee</h3>
+                    <h3><strong>General Manager:</strong> Ken Klee (acting)</h3>
+                 </div>  
+
                 <img src="images/pwhl-minnesota.png" alt="Title Logo">
             </div>
 
@@ -73,4 +98,3 @@
 
 </body>
 </html>
-     

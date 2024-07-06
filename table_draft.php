@@ -22,12 +22,12 @@ function generateTable($pdo, $draftYear, $limit, $title)
         $textColor = 'black';
 
         // Check if contract type is Two-Way
-        $capHitTextColor = $row['contractType'] === 'Two-Way' ? '#228B22' : $textColor;
+        $freeAgentColor = $row['signedTeam'] === 'Free Agent' ? '#0047AB' : $textColor;
 
         echo "<tr style='background-color: $backgroundColor;' onmouseover=\"this.style.backgroundColor='white';\" onmouseout=\"this.style.backgroundColor='$backgroundColor';\">";
         echo "<td style='color: $textColor;'>{$row['draftSelection']}</td>";
         echo "<td class='w3-left-align' style='color: $textColor;'>&nbsp;&nbsp;&nbsp;{$row['playerName']}</td>";
-        echo "<td style='color: $textColor;'>{$row['signedTeam']}</td>";
+        echo "<td style='color: $freeAgentColor;'>{$row['signedTeam']}</td>";
         echo "<td style='color: $textColor;'>{$row['draftedTeam']}</td>";
         echo "<td style='color: $textColor;'>{$row['originalPick']}</td>";
         echo "<td style='color: $textColor;'>{$row['position']}</td>";

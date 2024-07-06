@@ -18,7 +18,7 @@ function generateTable($pdo, $draftYear, $limit, $title)
     echo "<tbody class='w3-text-white w3-centered' id='tableContent'>";
 
     foreach ($players as $index => $row) {
-        $backgroundColor = $index % 2 === 0 ? '#e9e9e9' : 'transparent';
+        $backgroundColor = $index % 2 === 0 ? '#e9e9e9' : '#e9e9e9';
         $textColor = 'black';
 
         // Check if contract type is Two-Way

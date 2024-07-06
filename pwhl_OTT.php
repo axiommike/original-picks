@@ -36,7 +36,7 @@
 
         .custom-table th {
             color: #fff; /* Change to your desired text color */
-            background-color: #317fe3;
+            background-color: #a7192f;
         }
 
         /* Image Size */
@@ -52,7 +52,7 @@
     <!--====== Table ======-->
     <?php include 'table_pwhl.php'; ?>
 
-    <title>PWHL Toronto - PWHL Rosters - NHL Original Picks</title>
+    <title>PWHL Ottawa - PWHL Rosters - NHL Original Picks</title>
 </head>
 
 <body>
@@ -65,29 +65,30 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>PWHL Toronto</h2>
+                <h2>PWHL Ottawa</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Troy Ryan</h3>
-                    <h3><strong>General Manager:</strong> Gina Kingsbury</h3>
+                    <h3><strong>Coach:</strong> Carla MacLeod</h3>
+                    <h3><strong>General Manager:</strong> Michael Hirshfeld</h3>
                  </div>  
 
-                <img src="images/pwhl-toronto.png" alt="Title Logo">
+                <img src="images/pwhl-ottawa.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="pwhl_OTT.php" class="w3-button w3-text-black">&#10094; PWHL Ottawa</a>
+                <a href="pwhl_NY.php" class="w3-button w3-text-black">&#10094; PWHL New York</a>
+                <a href="pwhl_TOR.php" class="w3-button w3-right w3-text-black">PWHL Toronto &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateTable($pdo, 'Toronto', 'F', 40, 'Forwards', 6); ?>
+            <?php generateTable($pdo, 'Ottawa', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateTable($pdo, 'Toronto', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateTable($pdo, 'Ottawa', 'D', 20, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
-            <?php generateTable($pdo, 'Toronto', 'G', 10, 'Goalies', 1); ?>
+            <?php generateTable($pdo, 'Ottawa', 'G', 10, 'Goalies', 1); ?>
 
         </div>
     </header>

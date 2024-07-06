@@ -53,7 +53,7 @@ echo '<script>
 $(document).ready(function() {
     $("#playerTable").DataTable({
         "order": [[8, "desc"]], 
-        "pageLength": 100,
+        "pageLength": 50,
         "dom": "<\'top\'fpi>rt<\'clear\'>"
     });
 });

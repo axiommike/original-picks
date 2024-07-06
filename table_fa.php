@@ -12,7 +12,7 @@ function generateTable($pdo, $title)
     echo "<h3>$title <span style='font-size: 20px;'></span></h3>";
     echo "<table class='sortable custom-table' id='playerTable'>";
     echo "<thead style='background-color: black; color: white;'>";
-    echo "<tr><th class='w3-center'>#</th><th class='w3-left-align'>&nbsp;&nbsp;&nbsp;Player Name</th><th class='w3-center'>Drafted Team</th><th class='w3-center'>Draft Year</th><th class='w3-center'>Original Pick</th><th class='w3-center'>Previous Cap Hit</th><th class='w3-center'>Position</th><th class='w3-center'>NHL Rating</th></tr>";
+    echo "<tr><th class='w3-left-align'>&nbsp;&nbsp;&nbsp;Player Name</th><th class='w3-center'>Drafted Team</th><th class='w3-center'>Draft Year</th><th class='w3-center'>Original Pick</th><th class='w3-center'>Previous Cap Hit</th><th class='w3-center'>Position</th><th class='w3-center'>NHL Rating</th></tr>";
     echo "</thead>";
     echo "<tbody class='w3-text-white w3-centered' id='tableContent'>";
 
@@ -28,7 +28,6 @@ function generateTable($pdo, $title)
 
         // Displays table rows
         echo "<tr style='background-color: $backgroundColor;' onmouseover=\"this.style.backgroundColor='white';\" onmouseout=\"this.style.backgroundColor='$backgroundColor';\">";
-        echo "<td style='color: $textColor;'>{$row['jersey']}</td>";
         echo "<td class='w3-left-align' style='color: $textColor;'>&nbsp;&nbsp;&nbsp;{$row['playerName']}</td>";
         echo "<td style='color: $draftedTeamColor;'>{$row['draftedTeam']}</td>";
         echo "<td style='color: $draftYearColor;'>{$row['draftYear']}</td>";
@@ -51,7 +50,7 @@ echo '<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js
 echo '<script>
 $(document).ready(function() {
     $("#playerTable").DataTable({
-        "order": [[7, "desc"]], 
+        "order": [[6, "desc"]], 
         "pageLength": 50,
         "dom": "<\'top\'fpi>rt<\'clear\'>"
     });

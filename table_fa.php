@@ -51,7 +51,7 @@ echo '<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js
 echo '<script>
 $(document).ready(function() {
     $("#playerTable").DataTable({
-        "order": [[8, "desc"]], 
+        "order": [[7, "desc"]], 
         "pageLength": 50,
         "dom": "<\'top\'fpi>rt<\'clear\'>"
     });

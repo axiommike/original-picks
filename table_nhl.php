@@ -1,7 +1,7 @@
 <?php
 require("includes/db.inc.php");
 
-function generateTable($pdo, $signedTeam, $position, $limit, $title, $averageCount)
+function generateTable($pdo, $signedTeam, $position, $limit, $title)
 {
     $stmt = $pdo->prepare('SELECT * FROM nhl_player_data WHERE signedTeam = :signedTeam AND position = :position ORDER BY nhlRating DESC, capHit DESC, term DESC LIMIT :limit');
     $stmt->bindParam(':signedTeam', $signedTeam);
@@ -10,19 +10,12 @@ function generateTable($pdo, $signedTeam, $position, $limit, $title, $averageCou
     $stmt->execute();
 
     $players = $stmt->fetchAll();
+    
+    // Count the number of players
+    $playerCount = count($players);
 
-    // Calculate average rating for the specified number of top players
-    $averageRating = 0;
-    for ($i = 0; $i < min($averageCount, count($players)); $i++) {
-        $averageRating += $players[$i]['nhlRating'];
-    }
-    $averageRating /= $averageCount;
-
-    // Round the average rating to the nearest integer
-    $averageRating = round($averageRating);
-
-    // Display average rating next to the table title
-    echo "<h3>$title <span style='font-size: 20px;'>- " . number_format($averageRating) . "</span></h3>";
+    // Display the number of players next to the table title
+    echo "<h3>$title <span style='font-size: 20px;'>- $playerCount</span></h3>";
     echo "<table class='sortable custom-table' id='playerTable'>";
     echo "<thead style='background-color: black; color: white;'>";
     echo "<tr><th class='w3-center'>#</th><th class='w3-left-align'>&nbsp;&nbsp;&nbsp;Player Name</th><th class='w3-center'>Drafted Team</th><th class='w3-center'>Cap Hit</th><th class='w3-center'>Term</th><th class='w3-center'>Rights</th><th class='w3-center'>NHL Rating</th></tr>";
@@ -52,3 +45,4 @@ function generateTable($pdo, $signedTeam, $position, $limit, $title, $averageCou
     echo "</tbody>";
     echo "</table>";
 }
+?>

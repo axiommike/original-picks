@@ -19,6 +19,31 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
         }
+
+        /*! Table Padding */
+        .w3-responsive {
+            padding: 20px;
+        }
+
+        /* Table */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            padding: 30px;
+            border: 1px solid black; /* Transparent border */
+            background-color: white;
+        }
+
+        .custom-table th {
+            color: #fff; /* Change to your desired text color */
+            background-color: #004791;
+        }
+
+        /* Image Size */
+        .title-logo img {
+            width: 90px; 
+            height: 80px; 
+        }
     </style>
 
     <!--====== JS ======-->
@@ -40,7 +65,12 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>AHL Affiliates</h2>
+                <h2>American Hockey League</h2>
+
+                <div class="team-info">
+                    <h3>Affiliation History</h3>
+                </div>
+
                 <img src="images/ahl.png" alt="Title Logo">
             </div>
 

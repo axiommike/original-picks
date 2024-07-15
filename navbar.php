@@ -141,8 +141,8 @@
     <div class="dropdown">
         <button class="dropbtn" onclick="toggleDropdown(this)">Affiliations</button>
         <div class="dropdown-content affiliations">
-            <a href="affiliates_ahl.php" class="dropdown-link"><img class="dropdown-img" src="images/ahl.png" alt="AHL Logo">AHL</a>
-            <a href="affiliates_echl.php" class="dropdown-link"><img class="dropdown-img" src="images/echl.png" alt="ECHL Logo">ECHL</a>
+            <a href="affiliates_ahl.php" class="dropdown-link"><img class="dropdown-img" src="images/ahl.png" alt="AHL Logo">American Hockey League</a>
+            <a href="affiliates_echl.php" class="dropdown-link"><img class="dropdown-img" src="images/echl.png" alt="ECHL Logo">East Coast Hockey League</a>
         </div>
     </div> 
 

@@ -1,15 +1,14 @@
-/*!======== Google Fonts ========*/
+/*======== Google Fonts ========*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap');
 
-/*!======== Varibales ========*/
+/*======== Variables ========*/
 * {
     margin: 0;
     padding: 0;
     font-family: "Nunito", sans-serif;
 }
-/*!================*/
 
-/*!======== Content ========*/
+/*======== Content ========*/
 /* Content Container */
 .content {
     max-width: 800px;
@@ -27,14 +26,13 @@
 }
 
 /* Page Descriptions */
-.content p{
+.content p {
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
 }
-/*!================*/
 
-/*!======== Buttons ========*/
+/*======== Buttons ========*/
 /* Button Container */
 .button-container {
     width: 100%;
@@ -58,7 +56,7 @@
     position: relative;
     overflow: hidden;
     border-color: #000;
-    transition: color 0.5s; 
+    transition: color 0.5s;
 }
 
 /* Button Contents */
@@ -87,13 +85,11 @@ span {
 
 /* Hover Effect */
 .button-container button:hover {
-    color: #fff; 
+    color: #fff;
 }
-/*!================*/
 
-/*!======== Media Query ========*/
+/*======== Media Query ========*/
 @media screen and (max-width: 986px) {
-
     /* Adjust styling for page title */
     .content h1 {
         font-size: 40px; /* Adjust the font size as needed for smaller screens */
@@ -101,10 +97,8 @@ span {
 }
 
 @media screen and (max-width: 395px) {
-
     /* Adjust styling for page title */
     .content h1 {
         font-size: 35px; /* Adjust the font size as needed for smaller screens */
     }
 }
-/*!================*/

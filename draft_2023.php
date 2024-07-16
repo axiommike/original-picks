@@ -76,7 +76,7 @@
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateTable($pdo, '2023', 100, 'Drafted Players'); ?>
+            <?php generateTable($pdo, '2023', 300, 'Drafted Players'); ?>
 
         </div>
     </header>

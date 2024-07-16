@@ -24,6 +24,26 @@
         .w3-responsive {
             padding: 20px;
         }
+
+        /* Table */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            padding: 30px;
+            border: 1px solid black; /* Transparent border */
+            background-color: white;
+        }
+
+        .custom-table th {
+            color: #fff; /* Change to your desired text color */
+            background-color: #cbb778;
+        }
+
+        /* Image Size */
+        .title-logo img {
+            width: 100px; 
+            height: 100px; 
+        }
     </style>
 
     <!--====== JS ======-->
@@ -56,7 +76,7 @@
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateTable($pdo, '2012', 200, 'Draft Rankings'); ?>
+            <?php generateTable($pdo, '2012', 100, 'Drafted Players'); ?>
 
         </div>
     </header>

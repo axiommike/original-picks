@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <head>
-  <!--====== CSS MIKE WAS HERE ======-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--====== CSS ======-->
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
   <style>
     /* Background Image */
     .banner {
@@ -19,22 +20,20 @@
         background-attachment: fixed;
     }
   </style>
-
+  
   <!--====== JS ======-->
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> 
-
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  
   <!--====== Page Title ======-->
   <title>Home - NHL Original Picks</title>
 </head>
 
 <body>
-
   <!--====== Background Image ======-->
   <header class="banner">
-
     <!--====== Navbar ======-->
     <?php include 'navbar.php'; ?>
-
+    
     <!--====== Main Content ======-->
     <main class="content">
       <h1>ORIGINAL PICKS</h1>
@@ -45,9 +44,8 @@
       </div>
     </main>
   </header>
-
+  
   <!--====== JS ======-->
   <script src="js/navbar.js"></script>
-
 </body>
 </html>

@@ -93,7 +93,7 @@
             <a href="pwhl_BOS.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-boston.png" alt="PWHL Boston Logo">PWHL Boston</a>
             <a href="pwhl_MIN.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-minnesota.png" alt="PWHL Minnesota Logo">PWHL Minnesota</a>
             <a href="pwhl_MTL.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-montreal.png" alt="PWHL Montreal Logo">PWHL Montreal</a>
-            <a href="pwhl_NY.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-newyork.png" alt="PWHL New York Logo">PWHL New York</a>
+            <a href="pwhl_NY.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-newYork.png" alt="PWHL New York Logo">PWHL New York</a>
             <a href="pwhl_OTT.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-ottawa.png" alt="PWHL Ottawa Logo">PWHL Ottawa</a>
             <a href="pwhl_TOR.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-toronto.png" alt="PWHL Toronto Logo">PWHL Toronto</a>
         </div>
@@ -134,6 +134,7 @@
             <a href="draft_2021.php" class="dropdown-link"><img class="dropdown-img" src="images/2021.png" alt="Draft Logo">2021 NHL Draft</a>
             <a href="draft_2022.php" class="dropdown-link"><img class="dropdown-img" src="images/2022.png" alt="Draft Logo">2022 NHL Draft</a>
             <a href="draft_2023.php" class="dropdown-link"><img class="dropdown-img" src="images/2023.png" alt="Draft Logo">2023 NHL Draft</a>
+            <a href="draft_2024.php" class="dropdown-link"><img class="dropdown-img" src="images/2024.png" alt="Draft Logo">2024 NHL Draft</a>
         </div>
     </div> 
 

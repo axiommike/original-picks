@@ -47,7 +47,7 @@ echo '<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js
 echo '<script>
 $(document).ready(function() {
     $("#playerTable").DataTable({
-        "pageLength": 100,
+        "pageLength": 50,
         "dom": "<\'top\'fpi>rt<\'clear\'>"
     });
 });

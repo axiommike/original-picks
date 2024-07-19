@@ -41,8 +41,8 @@
 
         /* Image Size */
         .title-logo img {
-            width: 90px; 
-            height: 70px; 
+            width: 120px; 
+            height: 100px; 
         }
     </style>
 
@@ -66,7 +66,10 @@
         <div class="w3-responsive">
             <div class="title-logo">
                 <h2>Minnesota Wild</h2>
-                <h2>ORIGINAL PICKS</h2> 
+                
+                <div class="team-info">
+                    <h3>Original Picks</h3>
+                </div>
 
                 <img src="images/logo-wild.png" alt="Title Logo">
             </div>

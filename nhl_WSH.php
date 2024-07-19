@@ -41,8 +41,8 @@
 
         /* Image Size */
         .title-logo img {
-            width: 90px; 
-            height: 70px; 
+            width: 120px; 
+            height: 100px; 
         }
     </style>
 

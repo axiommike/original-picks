@@ -41,8 +41,8 @@
 
         /* Image Size */
         .title-logo img {
-            width: 80px; 
-            height: 80px; 
+            width: 100px; 
+            height: 100px; 
         }
     </style>
 
@@ -69,7 +69,7 @@
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> Kris Knoblauch</h3>
-                    <h3><strong>General Manager:</strong> <i style="color:red;">Vacant</i></h3>
+                    <h3><strong>General Manager:</strong> Ken Holland</h3>
                  </div>  
 
                 <img src="images/logo-oilers.png" alt="Title Logo">

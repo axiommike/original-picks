@@ -69,7 +69,7 @@
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> Kris Knoblauch</h3>
-                    <h3><strong>General Manager:</strong> Ken Holland</h3>
+                    <h3><strong>General Manager:</strong> Stan Bowman</h3>
                  </div>  
 
                 <img src="images/logo-oilers.png" alt="Title Logo">

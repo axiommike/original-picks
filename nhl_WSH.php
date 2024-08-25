@@ -69,7 +69,7 @@
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> Spencer Carbery</h3>
-                    <h3><strong>General Manager:</strong> Brian MacLellan</h3>
+                    <h3><strong>General Manager:</strong> Chris Patrick</h3>
                  </div>  
 
                 <img src="images/logo-capitals.png" alt="Title Logo">

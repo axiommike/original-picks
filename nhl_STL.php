@@ -85,7 +85,7 @@
             <?php generateTable($pdo, 'St. Louis Blues', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateTable($pdo, 'St. Louis Blues', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateTable($pdo, 'St. Louis Blues', 'D', 40, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
             <?php generateTable($pdo, 'St. Louis Blues', 'G', 10, 'Goalies', 1); ?>

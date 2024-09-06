@@ -24,7 +24,7 @@ function generateTable($pdo, $signedTeam, $position, $limit, $title)
 
     foreach ($players as $index => $row) {
         $backgroundColor = $index % 2 === 0 ? '#e9e9e9' : '#e9e9e9';
-        $textColor = $row['LTIR'] === 'Yes' ? '#ff0000' : 'black';
+        $textColor = 'black';
 
         // Text colours
         $capHitTextColor = $row['contractType'] === 'Two-Way' ? '#228B22' : $textColor;

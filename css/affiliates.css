@@ -29,6 +29,11 @@
     text-align: center;
 }
 
+/* Coach and GM Title */
+.team-info h3 {
+    font-size: 15px; 
+}
+
 /* Logo Spacing */
 .logo-container {
     margin-top: 10px; 

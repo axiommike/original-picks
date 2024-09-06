@@ -30,10 +30,6 @@ function generateTable($pdo, $signedTeam, $position, $limit, $title)
         $capHitTextColor = $row['contractType'] === 'Two-Way' ? '#228B22' : $textColor;
         $draftedTeamColor = $row['draftedTeam'] === 'Undrafted' ? '#ff0000' : $textColor;
         
-        // Set background color, border, and rounded corners for 'rights' based on its value
-        $rightsBackgroundColor = $row['rights'] === 'UFA' ? '#ff0000' : '#0000ff'; // Red for UFA, Blue otherwise
-        $rightsStyle = "border: 2px solid black; background-color: $rightsBackgroundColor; border-radius: 10px; padding: 2px 10px; margin: 5px; display: inline-block; width: 60px; height: 30px; text-align: center;";
-
         // Displays table rows
         echo "<tr style='background-color: $backgroundColor;' onmouseover=\"this.style.backgroundColor='white';\" onmouseout=\"this.style.backgroundColor='$backgroundColor';\">";
         echo "<td style='color: $textColor;'>{$row['jersey']}</td>";
@@ -41,7 +37,7 @@ function generateTable($pdo, $signedTeam, $position, $limit, $title)
         echo "<td style='color: $draftedTeamColor;'>{$row['draftedTeam']}</td>";
         echo "<td style='color: $capHitTextColor;'>" . '$' . number_format($row['capHit'], 0, '', ',') . "</td>";
         echo "<td style='color: $textColor;'>{$row['term']}</td>";
-        echo "<td><span style='$rightsStyle'>{$row['rights']}</span></td>";
+        echo "<td style='color: $textColor;'>{$row['rights']}</td>";
         echo "<td style='color: $textColor;'>{$row['nhlRating']}</td>";
         echo "</tr>";
     }

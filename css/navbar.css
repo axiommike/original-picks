@@ -11,7 +11,7 @@
     --hover-color: #ebebeb;
     --navbar-padding: 14px 16px;
     --dropdown-padding: 8px;
-    --dropdown-margin-top: 21px;
+    --dropdown-margin-top: 18px;
     --dropdown-margin-left: 15px;
     --dropdown-font-size: 17px;
     --dropdown-font-size-small: 12px;
@@ -19,6 +19,204 @@
     --logo-padding: 10px;
     --logo-width: 160px;
     --responsive-breakpoint: 1082px;
+}
+
+/* Team-specific navbar colors */
+.navbar.nhl_ANA,
+.navbar.op_ANA {
+    background-color: #F47A38;
+}
+
+.navbar.op_ARI {
+    background-color: #8C2633;
+}
+
+.navbar.nhl_BOS,
+.navbar.op_BOS {
+    background-color: #FFB81C;
+}
+
+.navbar.nhl_BUF, 
+.navbar.op_BUF {
+    background-color: #003087;
+}
+
+.navbar.nhl_CAR,
+.navbar.op_CAR {
+    background-color: #CE1126;
+}
+
+.navbar.nhl_CBJ,
+.navbar.op_CBJ {
+    background-color: #002654;
+}
+
+.navbar.nhl_CGY,
+.navbar.op_CGY {
+    background-color: #D2001C;
+}
+
+.navbar.nhl_CHI, 
+.navbar.op_CHI {
+    background-color: #CF0A2C;
+}
+
+.navbar.nhl_COL,
+.navbar.op_COL {
+    background-color: #6F263D;
+}
+
+.navbar.nhl_DAL,
+.navbar.op_DAL {
+    background-color: #006847;
+}
+
+.navbar.nhl_DET,
+.navbar.op_DET {
+    background-color: #CE1126;
+}
+
+.navbar.nhl_EDM,
+.navbar.op_EDM {
+    background-color: #072b86;
+}
+
+.navbar.nhl_FLA,
+.navbar.op_FLA {
+    background-color: #C8102E;
+}
+
+.navbar.nhl_LAK,
+.navbar.op_LAK {
+    background-color: #111111;
+}
+
+.navbar.nhl_MIN,
+.navbar.op_MIN {
+    background-color: #154734;
+}
+
+.navbar.nhl_MTL,
+.navbar.op_MTL {
+    background-color: #AF1E2D;
+}
+
+.navbar.nhl_NJD,
+.navbar.op_NJD {
+    background-color: #CE1126;
+}
+
+.navbar.nhl_NSH,
+.navbar.op_NSH {
+    background-color: #FFB81C;
+}
+
+.navbar.nhl_NYI,
+.navbar.op_NYI {
+    background-color: #00539B;
+}
+
+.navbar.nhl_NYR,
+.navbar.op_NYR {
+    background-color: #0038A8;
+}
+
+.navbar.nhl_OTT,
+.navbar.op_OTT {
+    background-color: #000000;
+}
+
+.navbar.nhl_PHI,
+.navbar.op_PHI {
+    background-color: #F74902;
+}
+
+.navbar.nhl_PIT,
+.navbar.op_PIT {
+    background-color: #FCB514;
+}
+
+.navbar.nhl_SEA,
+.navbar.op_SEA {
+    background-color: #99D9D9;
+}
+
+.navbar.nhl_SJS,
+.navbar.op_SJS {
+    background-color: #006D75;
+}
+
+.navbar.nhl_STL,
+.navbar.op_STL {
+    background-color: #002F87;
+}
+
+.navbar.nhl_TBL,
+.navbar.op_TBL {
+    background-color: #002868;
+}
+
+.navbar.nhl_TOR,
+.navbar.op_TOR {
+    background-color: #00205B;
+}
+
+.navbar.nhl_UTH,
+.navbar.op_UTH {
+    background-color: #6cace4;
+}
+
+.navbar.nhl_VAN,
+.navbar.op_VAN {
+    background-color: #00205B;
+}
+
+.navbar.nhl_VGK,
+.navbar.op_VGK {
+    background-color: #B4975A;
+}
+
+.navbar.nhl_WPG,
+.navbar.op_WPG {
+    background-color: #041E42;
+}
+
+.navbar.nhl_WSH,
+.navbar.op_WSH {
+    background-color: #C8102E;
+}
+
+.navbar.pwhl_BOS {
+    background-color: #164734;
+}
+
+.navbar.pwhl_MIN {
+    background-color: #2d1a47;
+}
+
+.navbar.pwhl_MTL {
+    background-color: #862632;
+}
+
+.navbar.pwhl_NY {
+    background-color: #03b2ab;
+}
+
+.navbar.pwhl_OTT {
+    background-color: #a7192f;
+}
+
+.navbar.pwhl_TOR {
+    background-color: #317fe3;
+}
+
+.navbar.database_nhl,
+.navbar.database_fa {
+    background-color: #000;
+}
+
+.navbar.database_pwhl {
+    background-color: #33058c;
 }
 
 /*!======== Reset and Font ========*/
@@ -35,7 +233,7 @@
     cursor: pointer;
     position: relative;
     z-index: 1;
-    background-color: var(--darkblue-color); 
+    background-color: transparent; 
     padding: var(--logo-padding); 
     border-radius: 10px; 
 }
@@ -119,7 +317,6 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     overflow: hidden;
     padding: 5px;
@@ -247,7 +444,7 @@
         margin-left: 0px;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(1, 1fr);
-        background-color: var(--lightblue-color); 
+        background-color: inherit; 
     }
 
     /* Styling for dropdown content links */
@@ -258,7 +455,7 @@
         display: block;
         text-align: left;
         font-size: 15px;
-        background-color: var(--darkblue-color); 
+        background-color: inherit; 
     }
 
     /* Hover effect for dropdown content links */
@@ -283,7 +480,7 @@
         margin-left: 0px;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(1, 1fr);
-        background-color: var(--darkblue-color); 
+        background-color: inherit; 
     }
 }
 
@@ -295,7 +492,7 @@
         margin-left: 0px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(1, 1fr);
-        background-color: var(--darkblue-color); 
+        background-color: inherit; 
     }
 }
 
@@ -307,7 +504,7 @@
         margin-left: 0px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(1, 1fr);
-        background-color: var(--darkblue-color); 
+        background-color: inherit; 
     }
 }
 
@@ -319,7 +516,7 @@
         margin-left: 0px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
-        background-color: var(--darkblue-color); 
+        background-color: inherit; 
     }
 }
 /*!================*/

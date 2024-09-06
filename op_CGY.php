@@ -68,7 +68,7 @@
                 <h2>Calgary Flames</h2>
                 
                 <div class="team-info">
-                    <h3>Original Picks</h3>
+                    <h4>Original Picks</h4>
                 </div>
 
                 <img src="images/logo-flames.png" alt="Title Logo">

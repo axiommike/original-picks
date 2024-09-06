@@ -183,7 +183,7 @@ switch ($page) {
             <a href="pwhl_BOS.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-boston.png" alt="PWHL Boston Logo">PWHL Boston</a>
             <a href="pwhl_MIN.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-minnesota.png" alt="PWHL Minnesota Logo">PWHL Minnesota</a>
             <a href="pwhl_MTL.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-montreal.png" alt="PWHL Montreal Logo">PWHL Montreal</a>
-            <a href="pwhl_NY.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-newYork.png" alt="PWHL New York Logo">PWHL New York</a>
+            <a href="pwhl_NY.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-newyork.png" alt="PWHL New York Logo">PWHL New York</a>
             <a href="pwhl_OTT.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-ottawa.png" alt="PWHL Ottawa Logo">PWHL Ottawa</a>
             <a href="pwhl_TOR.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-toronto.png" alt="PWHL Toronto Logo">PWHL Toronto</a>
         </div>

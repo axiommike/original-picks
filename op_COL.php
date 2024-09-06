@@ -68,7 +68,7 @@
                 <h2>Colorado Avalanche</h2>
                 
                 <div class="team-info">
-                    <h3>Original Picks</h3>
+                    <h4>Original Picks</h4>
                 </div>
 
                 <img src="images/logo-avalanche.png" alt="Title Logo">

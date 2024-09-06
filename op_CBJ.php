@@ -68,7 +68,7 @@
                 <h2>Columbus Blue Jackets</h2>
                 
                 <div class="team-info">
-                    <h3>Original Picks</h3>
+                    <h4>Original Picks</h4>
                 </div>
 
                 <img src="images/logo-bluejackets.png" alt="Title Logo">

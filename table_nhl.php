@@ -32,7 +32,7 @@ function generateTable($pdo, $signedTeam, $position, $limit, $title)
         
         // Set background color and border for 'rights' based on its value
         $rightsBackgroundColor = $row['rights'] === 'UFA' ? '#ff0000' : '#0000ff'; // Red for UFA, Blue otherwise
-        $rightsBorderStyle = "border: 2px solid black; padding: 5px; background-color: $rightsBackgroundColor;";
+        $rightsBorderStyle = "border: 2px solid black; padding: 2px; background-color: $rightsBackgroundColor;";
 
 
         // Displays table rows

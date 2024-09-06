@@ -1,10 +1,100 @@
-<div class="navbar" id="myNavbar">
+<?php
+// Get the current page URL or identifier
+$page = basename($_SERVER['PHP_SELF'], ".php");
+
+// Set a class for the navbar based on the page
+$navbarClass = '';
+switch ($page) {
+    case 'nhl_ANA':
+    case 'nhl_BOS':
+    case 'nhl_BUF':
+    case 'nhl_CAR':
+    case 'nhl_CBJ':
+    case 'nhl_CGY':
+    case 'nhl_CHI':
+    case 'nhl_COL':
+    case 'nhl_DAL':
+    case 'nhl_DET':
+    case 'nhl_EDM':
+    case 'nhl_FLA':
+    case 'nhl_LAK':
+    case 'nhl_MIN':
+    case 'nhl_MTL':
+    case 'nhl_NJD':
+    case 'nhl_NSH':
+    case 'nhl_NYI':
+    case 'nhl_NYR':
+    case 'nhl_OTT':
+    case 'nhl_PHI':
+    case 'nhl_PIT':
+    case 'nhl_SEA':
+    case 'nhl_SJS':
+    case 'nhl_STL':
+    case 'nhl_TBL':
+    case 'nhl_TOR':
+    case 'nhl_UTH':
+    case 'nhl_VAN':
+    case 'nhl_VGK':
+    case 'nhl_WPG':
+    case 'nhl_WSH':
+    case 'op_ANA':
+    case 'op_ARI' :
+    case 'op_BOS':
+    case 'op_BUF':
+    case 'op_CAR':
+    case 'op_CBJ':
+    case 'op_CGY':
+    case 'op_CHI':
+    case 'op_COL':
+    case 'op_DAL':
+    case 'op_DET':
+    case 'op_EDM':
+    case 'op_FLA':
+    case 'op_LAK':
+    case 'op_MIN':
+    case 'op_MTL':
+    case 'op_NJD':
+    case 'op_NSH':
+    case 'op_NYI':
+    case 'op_NYR':
+    case 'op_OTT':
+    case 'op_PHI':
+    case 'op_PIT':
+    case 'op_SEA':
+    case 'op_SJS':
+    case 'op_STL':
+    case 'op_TBL':
+    case 'op_TOR':
+    case 'op_UTH':
+    case 'op_VAN':
+    case 'op_VGK':
+    case 'op_WPG':
+    case 'op_WSH':
+    case 'pwhl_BOS':
+    case 'pwhl_MIN':
+    case 'pwhl_MTL':
+    case 'pwhl_NY':
+    case 'pwhl_OTT':
+    case 'pwhl_TOR':
+    case 'database_nhl':
+    case 'database_pwhl':
+    case 'database_fa':
+
+        $navbarClass = $page;
+        break;
+    default:
+        $navbarClass = '';
+        break;
+}
+?>
+
+<div class="navbar <?php echo $navbarClass; ?>" id="myNavbar">
 
     <!--====== OP Logo ======-->
     <a href="index.php" class="logo-link">
-      <div class="logo">
-        <img src="images/logo-originalPicks.png" alt="Logo">
-      </div>
+        <div class="logo <?php echo $navbarClass; ?>">
+            <img src="images/logo-originalPicks.png" alt="Logo">
+        </div>
     </a>
 
     <!--====== Nav Bar NHL Rosters ======-->

@@ -52,7 +52,7 @@
     <!--====== Table ======-->
     <?php include 'table_pwhl.php'; ?>
 
-    <title>PWHL New York - PWHL Rosters - NHL Original Picks</title>
+    <title>New York Sirens - PWHL Rosters - NHL Original Picks</title>
 </head>
 
 <body>
@@ -65,30 +65,30 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>PWHL New York</h2>
+                <h2>New York Sirens</h2>
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> Howie Draper</h3>
                     <h3><strong>General Manager:</strong> Pascal Daoust</h3>
                  </div>  
 
-                <img src="images/pwhl-newyork.png" alt="Title Logo">
+                <img src="images/logo-sirens.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="pwhl_MTL.php" class="w3-button w3-text-black">&#10094; PWHL Montreal</a>
-                <a href="pwhl_OTT.php" class="w3-button w3-right w3-text-black">PWHL Ottawa &#10095;</a>
+                <a href="pwhl_MTL.php" class="w3-button w3-text-black">&#10094; Montreal Victoires</a>
+                <a href="pwhl_OTT.php" class="w3-button w3-right w3-text-black">Ottawa Charge &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateTable($pdo, 'New York', 'F', 40, 'Forwards', 6); ?>
+            <?php generateTable($pdo, 'New York Sirens', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateTable($pdo, 'New York', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateTable($pdo, 'New York Sirens', 'D', 20, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
-            <?php generateTable($pdo, 'New York', 'G', 10, 'Goalies', 1); ?>
+            <?php generateTable($pdo, 'New York Sirens', 'G', 10, 'Goalies', 1); ?>
 
         </div>
     </header>

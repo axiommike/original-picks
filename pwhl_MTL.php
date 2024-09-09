@@ -52,7 +52,7 @@
     <!--====== Table ======-->
     <?php include 'table_pwhl.php'; ?>
 
-    <title>PWHL Montreal - PWHL Rosters - NHL Original Picks</title>
+    <title>Montreal Victoires - PWHL Rosters - NHL Original Picks</title>
 </head>
 
 <body>
@@ -65,30 +65,30 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>PWHL Montreal</h2>
+                <h2>Montreal Victoires</h2>
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> Kori Cheverie</h3>
                     <h3><strong>General Manager:</strong> Daniele Sauvageau</h3>
                  </div>  
 
-                <img src="images/pwhl-montreal.png" alt="Title Logo">
+                <img src="images/logo-victoires.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="pwhl_MIN.php" class="w3-button w3-text-black">&#10094; PWHL Minnesota</a>
-                <a href="pwhl_NY.php" class="w3-button w3-right w3-text-black">PWHL New York &#10095;</a>
+                <a href="pwhl_MIN.php" class="w3-button w3-text-black">&#10094; Minnesota Frost</a>
+                <a href="pwhl_NY.php" class="w3-button w3-right w3-text-black">New York Sirens &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateTable($pdo, 'Montreal', 'F', 40, 'Forwards', 6); ?>
+            <?php generateTable($pdo, 'Montreal Victoires', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateTable($pdo, 'Montreal', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateTable($pdo, 'Montreal Victoires', 'D', 20, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
-            <?php generateTable($pdo, 'Montreal', 'G', 10, 'Goalies', 1); ?>
+            <?php generateTable($pdo, 'Montreal Victoires', 'G', 10, 'Goalies', 1); ?>
 
         </div>
     </header>

@@ -362,8 +362,8 @@
 }
 
 .dropdown-content.pwhl {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     margin-left: calc(var(--dropdown-margin-left) + 510px);
 }
 

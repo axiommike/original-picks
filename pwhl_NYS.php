@@ -41,8 +41,8 @@
 
         /* Image Size */
         .title-logo img {
-            width: 150px; 
-            height: 100px; 
+            width: 90px; 
+            height: 90px; 
         }
     </style>
 
@@ -77,7 +77,7 @@
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="pwhl_MTL.php" class="w3-button w3-text-black">&#10094; Montreal Victoires</a>
+                <a href="pwhl_MTL.php" class="w3-button w3-text-black">&#10094; Montreal Victoire</a>
                 <a href="pwhl_OTT.php" class="w3-button w3-right w3-text-black">Ottawa Charge &#10095;</a>
             </div>
 

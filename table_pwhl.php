@@ -11,18 +11,11 @@ function generateTable($pdo, $signedTeam, $position, $limit, $title, $averageCou
 
     $players = $stmt->fetchAll();
 
-    // Calculate average rating for the specified number of top players
-    $averageRating = 0;
-    for ($i = 0; $i < min($averageCount, count($players)); $i++) {
-        $averageRating += $players[$i]['pwhlRating'];
-    }
-    $averageRating /= $averageCount;
-
-    // Round the average rating to the nearest integer
-    $averageRating = round($averageRating);
+    // Count the number of players
+    $playerCount = count($players);
 
     // Display average rating next to the table title
-    echo "<h3>$title <span style='font-size: 20px;'>- " . number_format($averageRating) . "</span></h3>";
+    echo "<h3>$title <span style='font-size: 20px;'>- " . number_format($playerCount) . "</span></h3>";
     echo "<table class='sortable custom-table'>";
     echo "<thead style='background-color: black; color: white;'>";
     echo "<tr><th class='w3-center'>#</th><th class='w3-left-align'>&nbsp;&nbsp;&nbsp;Player Name</th><th class='w3-center'>Drafted Team</th><th class='w3-center'>Cap Hit</th><th class='w3-center'>Term</th><th class='w3-center'>Rights</th><th class='w3-center'>PWHL Rating</th></tr>";

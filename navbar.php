@@ -73,7 +73,7 @@ switch ($page) {
     case 'pwhl_BOS':
     case 'pwhl_MIN':
     case 'pwhl_MTL':
-    case 'pwhl_NY':
+    case 'pwhl_NYS':
     case 'pwhl_OTT':
     case 'pwhl_TOR':
     case 'database_nhl':
@@ -180,12 +180,12 @@ switch ($page) {
     <div class="dropdown">
         <button class="dropbtn" onclick="toggleDropdown(this)">PWHL Rosters</button>
         <div class="dropdown-content pwhl">
-            <a href="pwhl_BOS.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-boston.png" alt="PWHL Boston Logo">PWHL Boston</a>
-            <a href="pwhl_MIN.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-minnesota.png" alt="PWHL Minnesota Logo">PWHL Minnesota</a>
-            <a href="pwhl_MTL.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-montreal.png" alt="PWHL Montreal Logo">PWHL Montreal</a>
-            <a href="pwhl_NY.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-newyork.png" alt="PWHL New York Logo">PWHL New York</a>
-            <a href="pwhl_OTT.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-ottawa.png" alt="PWHL Ottawa Logo">PWHL Ottawa</a>
-            <a href="pwhl_TOR.php" class="dropdown-link"><img class="dropdown-img" src="images/pwhl-toronto.png" alt="PWHL Toronto Logo">PWHL Toronto</a>
+            <a href="pwhl_BOS.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-fleet.png" alt="Boston Fleet Logo">Boston Fleet</a>
+            <a href="pwhl_MIN.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-frost.png" alt="Minnesota Frost Logo">Minnesota Frost</a>
+            <a href="pwhl_MTL.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-victoire.png" alt="Montreal Victoire Logo">Montreal Victoire</a>
+            <a href="pwhl_NYS.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-sirens.png" alt="New York Sirens Logo">New York Sirens</a>
+            <a href="pwhl_OTT.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-charge.png" alt="Ottawa Charge Logo">Ottawa Charge</a>
+            <a href="pwhl_TOR.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-sceptres.png" alt="Toronto Sceptres Logo">Toronto Sceptres</a>
         </div>
     </div>   
 

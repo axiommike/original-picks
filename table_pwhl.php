@@ -10,12 +10,12 @@ function generateTable($pdo, $signedTeam, $position, $limit, $title, $averageCou
     $stmt->execute();
 
     $players = $stmt->fetchAll();
-
+    
     // Count the number of players
     $playerCount = count($players);
 
-    // Display average rating next to the table title
-    echo "<h3>$title <span style='font-size: 20px;'>- " . number_format($playerCount) . "</span></h3>";
+    // Display the number of players next to the table title
+    echo "<h3>$title <span style='font-size: 20px;'>- $playerCount</span></h3>";
     echo "<table class='sortable custom-table'>";
     echo "<thead style='background-color: black; color: white;'>";
     echo "<tr><th class='w3-center'>#</th><th class='w3-left-align'>&nbsp;&nbsp;&nbsp;Player Name</th><th class='w3-center'>Drafted Team</th><th class='w3-center'>Cap Hit</th><th class='w3-center'>Term</th><th class='w3-center'>Rights</th><th class='w3-center'>PWHL Rating</th></tr>";

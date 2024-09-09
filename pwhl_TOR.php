@@ -52,7 +52,7 @@
     <!--====== Table ======-->
     <?php include 'table_pwhl.php'; ?>
 
-    <title>PWHL Toronto - PWHL Rosters - NHL Original Picks</title>
+    <title>Toronto Sceptres - PWHL Rosters - NHL Original Picks</title>
 </head>
 
 <body>
@@ -65,29 +65,29 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>PWHL Toronto</h2>
+                <h2>Toronto Sceptres</h2>
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> Troy Ryan</h3>
                     <h3><strong>General Manager:</strong> Gina Kingsbury</h3>
                  </div>  
 
-                <img src="images/pwhl-toronto.png" alt="Title Logo">
+                <img src="images/logo-sceptres.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="pwhl_OTT.php" class="w3-button w3-text-black">&#10094; PWHL Ottawa</a>
+                <a href="pwhl_OTT.php" class="w3-button w3-text-black">&#10094; Ottawa Charge</a>
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateTable($pdo, 'Toronto', 'F', 40, 'Forwards', 6); ?>
+            <?php generateTable($pdo, 'Toronto Sceptres', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateTable($pdo, 'Toronto', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateTable($pdo, 'Toronto Sceptres', 'D', 20, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
-            <?php generateTable($pdo, 'Toronto', 'G', 10, 'Goalies', 1); ?>
+            <?php generateTable($pdo, 'Toronto Sceptres', 'G', 10, 'Goalies', 1); ?>
 
         </div>
     </header>

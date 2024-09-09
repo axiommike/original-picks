@@ -52,7 +52,7 @@
     <!--====== Table ======-->
     <?php include 'table_pwhl.php'; ?>
 
-    <title>Montreal Victoires - PWHL Rosters - NHL Original Picks</title>
+    <title>Montreal Victoire - PWHL Rosters - NHL Original Picks</title>
 </head>
 
 <body>
@@ -65,14 +65,14 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>Montreal Victoires</h2>
+                <h2>Montreal Victoire</h2>
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> Kori Cheverie</h3>
                     <h3><strong>General Manager:</strong> Daniele Sauvageau</h3>
                  </div>  
 
-                <img src="images/logo-victoires.png" alt="Title Logo">
+                <img src="images/logo-victoire.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
@@ -82,13 +82,13 @@
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateTable($pdo, 'Montreal Victoires', 'F', 40, 'Forwards', 6); ?>
+            <?php generateTable($pdo, 'Montreal Victoire', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateTable($pdo, 'Montreal Victoires', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateTable($pdo, 'Montreal Victoire', 'D', 20, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
-            <?php generateTable($pdo, 'Montreal Victoires', 'G', 10, 'Goalies', 1); ?>
+            <?php generateTable($pdo, 'Montreal Victoire', 'G', 10, 'Goalies', 1); ?>
 
         </div>
     </header>

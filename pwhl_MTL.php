@@ -41,8 +41,8 @@
 
         /* Image Size */
         .title-logo img {
-            width: 150px; 
-            height: 110px; 
+            width: 90px; 
+            height: 90px; 
         }
     </style>
 
@@ -78,7 +78,7 @@
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
                 <a href="pwhl_MIN.php" class="w3-button w3-text-black">&#10094; Minnesota Frost</a>
-                <a href="pwhl_NY.php" class="w3-button w3-right w3-text-black">New York Sirens &#10095;</a>
+                <a href="pwhl_NYS.php" class="w3-button w3-right w3-text-black">New York Sirens &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->

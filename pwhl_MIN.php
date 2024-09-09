@@ -52,7 +52,7 @@
     <!--====== Table ======-->
     <?php include 'table_pwhl.php'; ?>
 
-    <title>PWHL Minnesota - PWHL Rosters - NHL Original Picks</title>
+    <title>Minnesota Frost - PWHL Rosters - NHL Original Picks</title>
 </head>
 
 <body>
@@ -65,30 +65,30 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>PWHL Minnesota</h2>
+                <h2>Minnesota Frost</h2>
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> Ken Klee</h3>
                     <h3><strong>General Manager:</strong> Ken Klee (acting)</h3>
                  </div>  
 
-                <img src="images/pwhl-minnesota.png" alt="Title Logo">
+                <img src="images/logo-frost.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="pwhl_BOS.php" class="w3-button w3-text-black">&#10094; PWHL Boston</a>
-                <a href="pwhl_MTL.php" class="w3-button w3-right w3-text-black">PWHL Montreal &#10095;</a>
+                <a href="pwhl_BOS.php" class="w3-button w3-text-black">&#10094; Boston Fleet</a>
+                <a href="pwhl_MTL.php" class="w3-button w3-right w3-text-black">Montreal Victoire &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateTable($pdo, 'Minnesota', 'F', 40, 'Forwards', 6); ?>
+            <?php generateTable($pdo, 'Minnesota Frost', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateTable($pdo, 'Minnesota', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateTable($pdo, 'Minnesota Frost', 'D', 20, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
-            <?php generateTable($pdo, 'Minnesota', 'G', 10, 'Goalies', 1); ?>
+            <?php generateTable($pdo, 'Minnesota Frost', 'G', 10, 'Goalies', 1); ?>
 
         </div>
     </header>

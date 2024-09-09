@@ -52,7 +52,7 @@
     <!--====== Table ======-->
     <?php include 'table_pwhl.php'; ?>
 
-    <title>PWHL Boston - PWHL Rosters - NHL Original Picks</title>
+    <title>Boston Fleet - PWHL Rosters - NHL Original Picks</title>
 </head>
 
 <body>
@@ -65,29 +65,29 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>PWHL Boston</h2>
+                <h2>Boston Fleet</h2>
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> Courtney Kessel</h3>
                     <h3><strong>General Manager:</strong> Danielle Marmer</h3>
                  </div>  
 
-                <img src="images/pwhl-boston.png" alt="Title Logo">
+                <img src="images/logo-fleet.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="pwhl_MIN.php" class="w3-button w3-right w3-text-black">PWHL Minnesota &#10095;</a>
+                <a href="pwhl_MIN.php" class="w3-button w3-right w3-text-black">Minnesota Frost &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateTable($pdo, 'Boston', 'F', 40, 'Forwards', 6); ?>
+            <?php generateTable($pdo, 'Boston Fleet', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateTable($pdo, 'Boston', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateTable($pdo, 'Boston Fleet', 'D', 20, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
-            <?php generateTable($pdo, 'Boston', 'G', 10, 'Goalies', 1); ?>
+            <?php generateTable($pdo, 'Boston Fleet', 'G', 10, 'Goalies', 1); ?>
 
         </div>
     </header>

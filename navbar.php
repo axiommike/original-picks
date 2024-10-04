@@ -91,7 +91,7 @@ switch ($page) {
 <div class="navbar <?php echo $navbarClass; ?>" id="myNavbar">
 
     <!--====== OP Logo ======-->
-    <a href="index.php" class="logo-link">
+    <a href="-opTracker.php" class="logo-link">
         <div class="logo <?php echo $navbarClass; ?>">
             <img src="images/logo-originalPicks.png" alt="Logo">
         </div>

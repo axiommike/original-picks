@@ -15,6 +15,11 @@ function getAllTeams($pdo) {
 
 // Function to generate a consolidated table for a specific team
 function generateConsolidatedTable($pdo, $team) {
+    // Check if the team is "Free Agent" and return early to avoid generating a table for it
+    if ($team === "Free Agent") {
+        return;
+    }
+
     echo "<table class='sortable custom-table'>";
     echo "<thead style='background-color: black; color: white;'>";
     echo "<tr><th class='w3-left-align' colspan='4'>$team</th></tr>";
@@ -28,7 +33,8 @@ function generateConsolidatedTable($pdo, $team) {
     foreach ($positions as $position) {
         $limit = ($position === 'D') ? 6 : ($position === 'G' ? 2 : 12);
 
-        $stmt = $pdo->prepare('SELECT * FROM nhl_player_data WHERE originalPick = :team AND position = :position ORDER BY nhlRating DESC, capHit DESC, term DESC LIMIT :limit');
+        // Update the SQL query to exclude players from "Free Agent"
+        $stmt = $pdo->prepare('SELECT * FROM nhl_player_data WHERE originalPick = :team AND position = :position AND originalPick != "Free Agent" ORDER BY nhlRating DESC, capHit DESC, term DESC LIMIT :limit');
         $stmt->bindParam(':team', $team);
         $stmt->bindParam(':position', $position);
         $stmt->bindParam(':limit', $limit, PDO::PARAM_INT);
@@ -81,7 +87,5 @@ function generateAllTables($pdo) {
 // Call the function to generate tables for all teams
 generateAllTables($pdo);
 ?>
-
-
 </body>
 </html>

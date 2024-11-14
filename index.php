@@ -37,9 +37,9 @@
     <!--====== Main Content ======-->
     <main class="content">
       <h1>ORIGINAL PICKS</h1>
-      <p>NHL 24 Players and Rosters<br>Originally Drafted Teams<br>Affiliated Teams Throughout History</p>
+      <p>NHL 25 Players and Rosters<br>Originally Drafted Teams<br>Affiliated Teams Throughout History</p>
       <div class="button-container">
-        <button type="button"><span></span><a href="https://www.ea.com/games/nhl/nhl-24" target="_blank">NHL 24</a></button>
+        <button type="button"><span></span><a href="https://www.ea.com/games/nhl/nhl-25" target="_blank">NHL 25</a></button>
         <button type="button"><span></span><a href="https://www.youtube.com/@originalpicks/videos" target="_blank">YOUTUBE</a></button>
       </div>
     </main>

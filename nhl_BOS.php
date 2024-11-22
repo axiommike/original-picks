@@ -68,7 +68,7 @@
                 <h2>Boston Bruins</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Jim Montgomery</h3>
+                    <h3><strong>Coach:</strong> Vacant</h3>
                     <h3><strong>General Manager:</strong> Don Sweeney</h3>
                  </div>  
 

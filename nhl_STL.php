@@ -68,7 +68,7 @@
                 <h2>St. Louis Blues</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Drew Bannister</h3>
+                    <h3><strong>Coach:</strong> Jim Montgomery</h3>
                     <h3><strong>General Manager:</strong> Doug Armstrong</h3>
                  </div>  
 

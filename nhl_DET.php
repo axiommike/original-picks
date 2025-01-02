@@ -68,7 +68,7 @@
                 <h2>Detroit Red Wings</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Derek Lalonde</h3>
+                    <h3><strong>Coach:</strong> Todd McLellan</h3>
                     <h3><strong>General Manager:</strong> Steve Yzerman</h3>
                  </div>  
 

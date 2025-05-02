@@ -68,7 +68,7 @@
                 <h2>Vancouver Canucks</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Rick Tocchet</h3>
+                    <h3><strong>Coach:</strong> Vacant</h3>
                     <h3><strong>General Manager:</strong> Patrik Allvin</h3>
                  </div>  
 

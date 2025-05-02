@@ -68,7 +68,7 @@
                 <h2>Pittsburgh Penguins</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Mike Sullivan</h3>
+                    <h3><strong>Coach:</strong> Vacant</h3>
                     <h3><strong>General Manager:</strong> Kyle Dubas</h3>
                  </div>  
 

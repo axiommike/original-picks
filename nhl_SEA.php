@@ -68,7 +68,7 @@
                 <h2>Seattle Kraken</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Dan Bylsma</h3>
+                    <h3><strong>Coach:</strong> Vacant</h3>
                     <h3><strong>General Manager:</strong> Jason Botterill</h3>
                  </div>  
 

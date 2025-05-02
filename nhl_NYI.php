@@ -69,7 +69,7 @@
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> Patrick Roy</h3>
-                    <h3><strong>General Manager:</strong> Lou Lamoriello</h3>
+                    <h3><strong>General Manager:</strong> Vacant</h3>
                  </div>  
 
                 <img src="images/logo-islanders.png" alt="Title Logo">

@@ -69,7 +69,7 @@
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> Dan Bylsma</h3>
-                    <h3><strong>General Manager:</strong> Ron Francis</h3>
+                    <h3><strong>General Manager:</strong> Jason Botterill</h3>
                  </div>  
 
                 <img src="images/logo-kraken.png" alt="Title Logo">

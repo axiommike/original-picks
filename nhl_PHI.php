@@ -68,7 +68,7 @@
                 <h2>Philadelphia Flyers</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> John Tortorella</h3>
+                    <h3><strong>Coach:</strong> Brad Shaw (Interim)</h3>
                     <h3><strong>General Manager:</strong> Daniel Briere</h3>
                  </div>  
 

@@ -52,7 +52,7 @@
     <!--====== Table ======-->
     <?php include 'table_nhl.php'; ?>
 
-    <title>Utah Hockey Club - NHL Rosters - NHL Original Picks</title>
+    <title>Utah Mammoth - NHL Rosters - NHL Original Picks</title>
 </head>
 
 <body>
@@ -65,14 +65,14 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>Utah Hockey Club</h2>
+                <h2>Utah Mammoth</h2>
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> Andre Tourigny</h3>
                     <h3><strong>General Manager:</strong> Bill Armstrong</h3>
                  </div>  
 
-                <img src="images/logo-hockeyclub.png" alt="Title Logo">
+                <img src="images/logo-mammoth.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
@@ -82,13 +82,13 @@
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateTable($pdo, 'Utah Hockey Club', 'F', 40, 'Forwards', 6); ?>
+            <?php generateTable($pdo, 'Utah Mammoth', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateTable($pdo, 'Utah Hockey Club', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateTable($pdo, 'Utah Mammoth', 'D', 20, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
-            <?php generateTable($pdo, 'Utah Hockey Club', 'G', 10, 'Goalies', 1); ?>
+            <?php generateTable($pdo, 'Utah Mammoth', 'G', 10, 'Goalies', 1); ?>
 
         </div>
     </header>

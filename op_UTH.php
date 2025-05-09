@@ -52,7 +52,7 @@
     <!--====== Table ======-->
     <?php include 'table_originalPicks.php'; ?>
 
-    <title>Utah Hockey Club - Original Picks - NHL Original Picks</title>
+    <title>Utah Mammoth - Original Picks - NHL Original Picks</title>
 </head>
 
 <body>
@@ -65,13 +65,13 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>Utah Hockey Club</h2>
+                <h2>Utah Mammoth</h2>
                 
                 <div class="team-info">
                     <h3>Original Picks</h3>
                 </div>
 
-                <img src="images/logo-hockeyclub.png" alt="Title Logo">
+                <img src="images/logo-mammoth.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
@@ -81,13 +81,13 @@
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateOriginalPickTable($pdo, 'Utah Hockey Club', 'F', 40, 'Forwards', 6); ?>
+            <?php generateOriginalPickTable($pdo, 'Utah Mammoth', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateOriginalPickTable($pdo, 'Utah Hockey Club', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateOriginalPickTable($pdo, 'Utah Mammoth', 'D', 20, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
-            <?php generateOriginalPickTable($pdo, 'Utah Hockey Club', 'G', 10, 'Goalies', 1); ?>
+            <?php generateOriginalPickTable($pdo, 'Utah Mammoth', 'G', 10, 'Goalies', 1); ?>
 
         </div>
     </header>

@@ -68,8 +68,8 @@
                 <h2>New Jersey Devils</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Sheldon Keefe</h3>
-                    <h3><strong>General Manager:</strong> Tom Fitzgerald</h3>
+                    <h3><strong>Coach:</strong> <i>Sheldon Keefe</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Tom Fitzgerald</i></h3>
                  </div>  
 
                 <img src="images/logo-devils.png" alt="Title Logo">

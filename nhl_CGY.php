@@ -68,8 +68,8 @@
                 <h2>Calgary Flames</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Ryan Huska</h3>
-                    <h3><strong>General Manager:</strong> Craig Conroy</h3>
+                    <h3><strong>Coach:</strong> <i>Ryan Huska</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Craig Conroy</i></h3>
                  </div>  
 
                 <img src="images/logo-flames.png" alt="Title Logo">

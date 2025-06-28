@@ -68,8 +68,8 @@
                 <h2>New York Islanders</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Patrick Roy</h3>
-                    <h3><strong>General Manager:</strong> Vacant</h3>
+                    <h3><strong>Coach:</strong> <i>Patrick Roy</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Mathieu Darche</i></h3>
                  </div>  
 
                 <img src="images/logo-islanders.png" alt="Title Logo">

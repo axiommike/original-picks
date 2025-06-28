@@ -68,8 +68,8 @@
                 <h2>Nashville Predators</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Andrew Brunette</h3>
-                    <h3><strong>General Manager:</strong> Barry Trotz</h3>
+                    <h3><strong>Coach:</strong> <i>Andrew Brunette</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Barry Trotz</i></h3>
                  </div>  
 
                 <img src="images/logo-predators.png" alt="Title Logo">

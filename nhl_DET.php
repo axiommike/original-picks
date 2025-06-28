@@ -68,8 +68,8 @@
                 <h2>Detroit Red Wings</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Todd McLellan</h3>
-                    <h3><strong>General Manager:</strong> Steve Yzerman</h3>
+                    <h3><strong>Coach:</strong> <i>Todd McLellan</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Steve Yzerman</i></h3>
                  </div>  
 
                 <img src="images/logo-redwings.png" alt="Title Logo">

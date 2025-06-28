@@ -72,6 +72,7 @@
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
                 <a href="draft_2023.php" class="w3-button w3-text-black">&#10094; 2023 NHL Draft</a>
+                <a href="draft_2025.php" class="w3-button w3-right w3-text-black">2025 NHL Draft &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->

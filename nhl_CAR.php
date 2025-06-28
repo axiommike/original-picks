@@ -68,8 +68,8 @@
                 <h2>Carolina Hurricanes</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Rod Brind'Amour</h3>
-                    <h3><strong>General Manager:</strong> Eric Tulsky</h3>
+                    <h3><strong>Coach:</strong> <i>Rod Brind'Amour</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Eric Tulsky</i></h3>
                  </div>  
 
                 <img src="images/logo-hurricanes.png" alt="Title Logo">

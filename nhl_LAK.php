@@ -68,8 +68,8 @@
                 <h2>Los Angeles Kings</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Jim Hiller</h3>
-                    <h3><strong>General Manager:</strong> Rob Blake</h3>
+                    <h3><strong>Coach:</strong> <i>Jim Hiller</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Ken Holland</i></h3>
                  </div>  
 
                 <img src="images/logo-kings.png" alt="Title Logo">

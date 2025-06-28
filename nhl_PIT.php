@@ -68,8 +68,8 @@
                 <h2>Pittsburgh Penguins</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Vacant</h3>
-                    <h3><strong>General Manager:</strong> Kyle Dubas</h3>
+                    <h3><strong>Coach:</strong> <i>Dan Muse</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Kyle Dubas</i></h3>
                  </div>  
 
                 <img src="images/logo-penguins.png" alt="Title Logo">

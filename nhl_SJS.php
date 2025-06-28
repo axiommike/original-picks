@@ -68,8 +68,8 @@
                 <h2>San Jose Sharks</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Ryan Warsofsky</h3>
-                    <h3><strong>General Manager:</strong> Mike Grier</h3>
+                    <h3><strong>Coach:</strong> <i>Ryan Warsofsky</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Mike Grier</i></h3>
                  </div>  
 
                 <img src="images/logo-sharks.png" alt="Title Logo">

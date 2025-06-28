@@ -68,8 +68,8 @@
                 <h2>Minnesota Wild</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> John Hynes</h3>
-                    <h3><strong>General Manager:</strong> Bill Guerin</h3>
+                    <h3><strong>Coach:</strong> <i>John Hynes</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Bill Guerin</i></h3>
                  </div>  
 
                 <img src="images/logo-wild.png" alt="Title Logo">

@@ -68,8 +68,8 @@
                 <h2>Seattle Kraken</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Vacant</h3>
-                    <h3><strong>General Manager:</strong> Jason Botterill</h3>
+                    <h3><strong>Coach:</strong> <i>Lane Lambert</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Jason Botterill</i></h3>
                  </div>  
 
                 <img src="images/logo-kraken.png" alt="Title Logo">

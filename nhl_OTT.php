@@ -68,8 +68,8 @@
                 <h2>Ottawa Senators</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Travis Green</h3>
-                    <h3><strong>General Manager:</strong> Steve Staios</h3>
+                    <h3><strong>Coach:</strong> <i>Travis Green</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Steve Staios</i></h3>
                  </div>  
 
                 <img src="images/logo-senators.png" alt="Title Logo">

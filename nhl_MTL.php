@@ -68,8 +68,8 @@
                 <h2>Montreal Canadiens</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Martin St. Louis</h3>
-                    <h3><strong>General Manager:</strong> Kent Hughes</h3>
+                    <h3><strong>Coach:</strong> <i>Martin St. Louis</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Kent Hughes</i></h3>
                  </div>  
 
                 <img src="images/logo-canadiens.png" alt="Title Logo">

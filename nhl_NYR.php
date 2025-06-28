@@ -68,8 +68,8 @@
                 <h2>New York Rangers</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Mike Sullivan</h3>
-                    <h3><strong>General Manager:</strong> Chris Drury</h3>
+                    <h3><strong>Coach:</strong> <i>Mike Sullivan</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Chris Drury</i></h3>
                  </div>  
 
                 <img src="images/logo-rangers.png" alt="Title Logo">

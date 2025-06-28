@@ -68,8 +68,8 @@
                 <h2>Anaheim Ducks</h2>
 
                 <div class="team-info">
-                    <h3><b>Coach:</b> Joel Quenneville</h3>
-                    <h3><b>General Manager:</b> Pat Verbeek</h3>
+                    <h3><strong>Coach:</strong> <i>Joel Quenneville</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Pat Verbeek</i></h3>
                  </div>  
 
                 <img src="images/logo-ducks.png" alt="Title Logo">

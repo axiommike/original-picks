@@ -68,8 +68,8 @@
                 <h2>Columbus Blue Jackets</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Dean Evason</h3>
-                    <h3><strong>General Manager:</strong> Don Waddell</h3>
+                    <h3><strong>Coach:</strong> <i>Dean Evason</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Don Waddell</i></h3>
                  </div>  
 
                 <img src="images/logo-bluejackets.png" alt="Title Logo">

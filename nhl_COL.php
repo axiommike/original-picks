@@ -68,8 +68,8 @@
                 <h2>Colorado Avalanche</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Jared Bednar</h3>
-                    <h3><strong>General Manager:</strong> Chris MacFarland</h3>
+                    <h3><strong>Coach:</strong> <i>Jared Bednar</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Chris MacFarland</i></h3>
                  </div>  
 
                 <img src="images/logo-avalanche.png" alt="Title Logo">

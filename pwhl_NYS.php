@@ -68,8 +68,8 @@
                 <h2>New York Sirens</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Howie Draper</h3>
-                    <h3><strong>General Manager:</strong> Pascal Daoust</h3>
+                    <h3><strong>Coach:</strong> <i>Greg Fargo</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Pascal Daoust</i></h3>
                  </div>  
 
                 <img src="images/logo-sirens.png" alt="Title Logo">

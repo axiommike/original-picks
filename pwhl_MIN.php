@@ -68,8 +68,8 @@
                 <h2>Minnesota Frost</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Ken Klee</h3>
-                    <h3><strong>General Manager:</strong> Melissa Caruso</h3>
+                    <h3><strong>Coach:</strong> <i>Ken Klee</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Melissa Caruso</i></h3>
                  </div>  
 
                 <img src="images/logo-frost.png" alt="Title Logo">

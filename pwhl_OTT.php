@@ -68,8 +68,8 @@
                 <h2>Ottawa Charge</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Carla MacLeod</h3>
-                    <h3><strong>General Manager:</strong> Michael Hirshfeld</h3>
+                    <h3><strong>Coach:</strong> <i>Carla MacLeod</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Michael Hirshfeld</i></h3>
                  </div>  
 
                 <img src="images/logo-charge.png" alt="Title Logo">

@@ -77,7 +77,8 @@
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="pwhl_OTT.php" class="w3-button w3-text-black">&#10094; Ottawa Charge</a>
+                <a href="pwhl_SEA.php" class="w3-button w3-text-black">&#10094; PWHL Seattle</a>
+                <a href="pwhl_VAN.php" class="w3-button w3-right w3-text-black">PWHL Vancouver &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->

@@ -78,7 +78,7 @@
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
                 <a href="pwhl_NYS.php" class="w3-button w3-text-black">&#10094; New York Sirens</a>
-                <a href="pwhl_TOR.php" class="w3-button w3-right w3-text-black">Toronto Sceptres &#10095;</a>
+                <a href="pwhl_SEA.php" class="w3-button w3-right w3-text-black">PWHL Seattle &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->

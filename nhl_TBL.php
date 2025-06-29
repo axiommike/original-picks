@@ -68,8 +68,8 @@
                 <h2>Tampa Bay Lightning</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Jon Cooper</h3>
-                    <h3><strong>General Manager:</strong> Julien BriseBois</h3>
+                    <h3><strong>Coach:</strong> <i>Jon Cooper</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Julien BriseBois</i></h3>
                  </div>  
 
                 <img src="images/logo-lightning.png" alt="Title Logo">

@@ -68,8 +68,8 @@
                 <h2>Montreal Victoire</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Kori Cheverie</h3>
-                    <h3><strong>General Manager:</strong> Daniele Sauvageau</h3>
+                    <h3><strong>Coach:</strong> <i>Kori Cheverie</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Daniele Sauvageau</i></h3>
                  </div>  
 
                 <img src="images/logo-victoire.png" alt="Title Logo">

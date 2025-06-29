@@ -68,8 +68,8 @@
                 <h2>Vegas Golden Knights</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Bruce Cassidy</h3>
-                    <h3><strong>General Manager:</strong> Kelly McCrimmon</h3>
+                    <h3><strong>Coach:</strong> <i>Bruce Cassidy</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Kelly McCrimmon</i></h3>
                  </div>  
 
                 <img src="images/logo-goldenknights.png" alt="Title Logo">

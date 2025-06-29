@@ -68,8 +68,8 @@
                 <h2>Winnipeg Jets</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Scott Arniel</h3>
-                    <h3><strong>General Manager:</strong> Kevin Cheveldayoff</h3>
+                    <h3><strong>Coach:</strong> <i>Scott Arniel</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Kevin Cheveldayoff</i></h3>
                  </div>  
 
                 <img src="images/logo-jets.png" alt="Title Logo">

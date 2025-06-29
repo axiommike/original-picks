@@ -68,8 +68,8 @@
                 <h2>Boston Fleet</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Courtney Kessel</h3>
-                    <h3><strong>General Manager:</strong> Danielle Marmer</h3>
+                    <h3><strong>Coach:</strong> <i>Courtney Kessel</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Danielle Marmer</i></h3>
                  </div>  
 
                 <img src="images/logo-fleet.png" alt="Title Logo">

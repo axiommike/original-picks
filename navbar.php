@@ -75,7 +75,9 @@ switch ($page) {
     case 'pwhl_MTL':
     case 'pwhl_NYS':
     case 'pwhl_OTT':
+    case 'pwhl_SEA':
     case 'pwhl_TOR':
+    case 'pwhl_VAN':
     case 'database_nhl':
     case 'database_pwhl':
     case 'database_fa':
@@ -185,7 +187,9 @@ switch ($page) {
             <a href="pwhl_MTL.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-victoire.png" alt="Montreal Victoire Logo">Montreal Victoire</a>
             <a href="pwhl_NYS.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-sirens.png" alt="New York Sirens Logo">New York Sirens</a>
             <a href="pwhl_OTT.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-charge.png" alt="Ottawa Charge Logo">Ottawa Charge</a>
+            <a href="pwhl_SEA.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-pwhlseattle.png" alt="PWHL Seattle Logo">PWHL Seattle</a>
             <a href="pwhl_TOR.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-sceptres.png" alt="Toronto Sceptres Logo">Toronto Sceptres</a>
+            <a href="pwhl_VAN.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-pwhlvancouver.png" alt="PWHL Vancouver Logo">PWHL Vancouver</a>
         </div>
     </div>   
 

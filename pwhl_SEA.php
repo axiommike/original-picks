@@ -68,8 +68,8 @@
                 <h2>PWHL Seattle</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> Carla MacLeod</h3>
-                    <h3><strong>General Manager:</strong> Michael Hirshfeld</h3>
+                    <h3><strong>Coach:</strong> <i>Steve O'Rourke</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Meghan Turner</i></h3>
                  </div>  
 
                 <img src="images/logo-pwhlseattle.png" alt="Title Logo">

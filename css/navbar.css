@@ -206,8 +206,16 @@
     background-color: #a7192f;
 }
 
+.navbar.pwhl_SEA {
+    background-color: #0a5258;
+}
+
 .navbar.pwhl_TOR {
     background-color: #317fe3;
+}
+
+.navbar.pwhl_VAN {
+    background-color: #0f4777;
 }
 
 .navbar.database_nhl,

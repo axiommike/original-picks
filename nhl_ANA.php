@@ -72,9 +72,9 @@
                     <h3><strong>General Manager:</strong> <i>Pat Verbeek</i></h3>
                  </div> 
         
-                <!--====== Contracts Tracker ======-->
+                <!--====== Contracts and Cap Hit Tracker ======-->
                 <?php $teamName = 'Anaheim Ducks'; ?>
-                <?php include 'contracts.php'; ?>
+                <?php include 'contracts_caphit.php'; ?>
 
                 <img src="images/logo-ducks.png" alt="Title Logo">
             </div>

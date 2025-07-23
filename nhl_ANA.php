@@ -43,6 +43,11 @@
         .title-logo img {
             width: 110px; 
             height: 100px; 
+            <div class="rating-circles">
+              <div class="circle" id="forwards-average">F: --</div>
+              <div class="circle" id="defensemen-average">D: --</div>
+              <div class="circle" id="goalies-average">G: --</div>
+            </div>
         }
     </style>
 

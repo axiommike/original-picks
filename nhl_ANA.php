@@ -109,7 +109,7 @@ $(document).ready(function () {
                     border-radius: 8px;
                     display: inline-block;
                     text-align: center;
-                    min-width: 40px;
+                    min-width: 20px;
                     margin-bottom: 2px;
                     margin-top: 2px;
                 ">${text}</span>`

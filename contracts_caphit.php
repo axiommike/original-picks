@@ -49,6 +49,7 @@ $capMax = '$95,500,000';
 
     <!-- Contracts Box -->
     <div style="
+        background-color: #f5f5f5;
         border: 2px solid <?php echo $teamColor; ?>;
         border-radius: 10px;
         padding: 6px 14px;
@@ -62,6 +63,7 @@ $capMax = '$95,500,000';
 
     <!-- Cap Hit Box -->
     <div style="
+        background-color: #f5f5f5;
         border: 2px solid <?php echo $teamColor; ?>;
         border-radius: 10px;
         padding: 6px 14px;

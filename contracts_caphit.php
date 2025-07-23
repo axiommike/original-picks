@@ -1,15 +1,11 @@
-<?php
-// Count total players signed to Anaheim Ducks
-$query = "SELECT COUNT(*) AS total_contracts 
-          FROM nhl_player_data 
-          WHERE signedTeam = :teamName";
-$stmt = $pdo->prepare($query);
-$stmt->execute(['teamName' => $teamName]);
-$result = $stmt->fetch(PDO::FETCH_ASSOC);
 
-// Display contracts out of 50
-echo "<h3><strong>Contracts:</strong> " . $result['total_contracts'] . " / 50</h3>";
-?>
+/* --- Contracts Count --- */
+$queryContracts = "SELECT COUNT(*) AS total_contracts 
+                   FROM nhl_player_data 
+                   WHERE signedTeam = :teamName";
+$stmt = $pdo->prepare($queryContracts);
+$stmt->execute(['teamName' => $teamName]);
+$contracts = $stmt->fetch(PDO::FETCH_ASSOC)['total_contracts'];
 
 /* --- Cap Hit Sum (only players above $1,000,000) --- */
 $queryCap = "SELECT SUM(capHit) AS total_cap 

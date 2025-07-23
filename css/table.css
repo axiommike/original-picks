@@ -89,10 +89,4 @@ h2 {
         font-size: 7px;
     }
 }
-
-/* Center DataTables Search Bar */
-.dataTables_filter {
-    text-align: center;
-}
-
 /*!================*/

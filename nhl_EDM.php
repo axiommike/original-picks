@@ -67,6 +67,10 @@
             <div class="title-logo">
                 <h2>Edmonton Oilers</h2>
 
+                <!--====== Contracts and Cap Hit Tracker ======-->
+                <?php $teamName = 'Edmonton Oilers'; ?>
+                <?php include 'contracts_caphit.php'; ?>
+
                 <div class="team-info">
                     <h3><strong>Coach:</strong> <i>Kris Knoblauch</i></h3>
                     <h3><strong>General Manager:</strong> <i>Stan Bowman</i></h3>

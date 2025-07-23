@@ -100,12 +100,25 @@ $(document).ready(function () {
     $('td').each(function () {
         const text = $(this).text().trim();
         if (text === 'UFA') {
-            $(this).css('color', 'red');
+            $(this).css({
+                'background-color': 'blue',
+                'color': 'white',
+                'padding': '2px 6px',
+                'border-radius': '4px',
+                'display': 'inline-block'
+            });
         } else if (text === 'RFA') {
-            $(this).css('color', 'blue');
+            $(this).css({
+                'background-color': 'red',
+                'color': 'white',
+                'padding': '2px 6px',
+                'border-radius': '4px',
+                'display': 'inline-block'
+            });
         }
     });
 });
 </script>
+
 </body>
 </html>

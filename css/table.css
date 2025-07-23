@@ -90,12 +90,16 @@ h2 {
     }
 }
 
-/* Rights Coloring */
-td:contains("UFA") {
-    color: blue;
-}
-
-td:contains("RFA") {
-    color: red;
-}
+<script>
+$(document).ready(function () {
+    $('td').each(function () {
+        const text = $(this).text().trim();
+        if (text === 'UFA') {
+            $(this).css('color', 'blue');
+        } else if (text === 'RFA') {
+            $(this).css('color', 'red');
+        }
+    });
+});
+</script>
 /*!================*/

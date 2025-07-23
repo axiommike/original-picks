@@ -26,10 +26,11 @@ $capFormatted = '$' . number_format($totalCap, 0);
 $capMax = '$95,500,000';
 ?>
 
-<!-- Flex container for side-by-side layout -->
+<!-- Centered Flex container -->
 <div style="
     display: flex;
-    gap: 20px;
+    justify-content: center; /* Centers horizontally */
+    gap: 15px;
     margin: 10px 0;
 ">
 
@@ -37,13 +38,13 @@ $capMax = '$95,500,000';
     <div style="
         background-color: #f5f5f5;
         border: 2px solid #F47A38;
-        border-radius: 10px;
-        padding: 10px 20px;
-        font-size: 18px;
+        border-radius: 8px;
+        padding: 6px 12px;
+        font-size: 14px;      /* Smaller font */
         font-weight: bold;
         color: #333;
         text-align: center;
-        min-width: 140px;
+        min-width: 110px;
     ">
         Contracts<br>
         <?php echo $contracts; ?> / 50
@@ -53,13 +54,13 @@ $capMax = '$95,500,000';
     <div style="
         background-color: #f5f5f5;
         border: 2px solid #F47A38;
-        border-radius: 10px;
-        padding: 10px 20px;
-        font-size: 18px;
+        border-radius: 8px;
+        padding: 6px 12px;
+        font-size: 14px;      /* Smaller font */
         font-weight: bold;
         color: #333;
         text-align: center;
-        min-width: 220px;
+        min-width: 180px;
     ">
         Cap Hit<br>
         <?php echo $capFormatted; ?> / <?php echo $capMax; ?>

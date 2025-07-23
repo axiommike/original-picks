@@ -75,6 +75,10 @@
                 <img src="images/logo-bruins.png" alt="Title Logo">
             </div>
 
+            <!--====== Average Ratings ======-->
+            <?php $teamName = 'Boston Bruins'; ?>
+            <?php include 'average_ratings.php'; ?>
+
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
                 <a href="nhl_ANA.php" class="w3-button w3-text-black">&#10094; Anaheim Ducks</a>
@@ -95,6 +99,7 @@
 
     <!--====== JS ======-->
     <script src="js/navbar.js"></script>
+    <script src="js/extras.js"></script>
 
 </body>
 </html>

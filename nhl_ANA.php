@@ -95,5 +95,17 @@
     <!--====== JS ======-->
     <script src="js/navbar.js"></script>
 
+<script>
+$(document).ready(function () {
+    $('td').each(function () {
+        const text = $(this).text().trim();
+        if (text === 'UFA') {
+            $(this).css('color', 'blue');
+        } else if (text === 'RFA') {
+            $(this).css('color', 'red');
+        }
+    });
+});
+</script>
 </body>
 </html>

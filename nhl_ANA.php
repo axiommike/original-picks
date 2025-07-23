@@ -100,8 +100,19 @@ $(document).ready(function () {
     $('td').each(function () {
         const text = $(this).text().trim();
         if (text === 'UFA' || text === 'RFA') {
-            const color = text === 'UFA' ? 'blue' : 'red';
-            $(this).html(`<span class="rights-badge ${text.toLowerCase()}">${text}</span>`);
+            const bgColor = text === 'UFA' ? 'blue' : 'red';
+            $(this).html(
+                `<span style="
+                    background-color: ${bgColor};
+                    color: white;
+                    padding: 2px 6px;
+                    border-radius: 4px;
+                    display: inline-block;
+                    text-align: center;
+                    min-width: 40px;
+                ">${text}</span>`
+            );
+            $(this).css('text-align', 'center');
         }
     });
 });

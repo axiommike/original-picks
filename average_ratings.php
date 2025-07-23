@@ -21,11 +21,11 @@ function getOutlineColor($rating) {
     if ($rating >= 90) {
         return '#008000';  // solid green
     } elseif ($rating >= 85) {
-        return 'rgba(0, 128, 0, 0.7)';  // slightly faded green
+        return '#228B22';  // slightly faded green
     } elseif ($rating >= 80) {
-        return 'rgba(0, 128, 0, 0.8)';  // a little darker faded green
+        return '#6D8196';  // a little darker faded green
     } elseif ($rating >= 75) {
-        return '#FFA500';  // orange (yellow/orange)
+        return '#FFAE42';  // orange (yellow/orange)
     } else {
         return '#ccc';    // default light gray if below 75
     }

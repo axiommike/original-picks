@@ -75,6 +75,46 @@
                 <img src="images/logo-ducks.png" alt="Title Logo">
             </div>
 
+            <?php
+            function getAverageRating($pdo, $team, $position, $limit) {
+                $stmt = $pdo->prepare("
+                    SELECT AVG(nhlRating) as avgRating 
+                    FROM (
+                        SELECT nhlRating 
+                        FROM players 
+                        WHERE team = :team AND position = :position 
+                        ORDER BY nhlRating DESC 
+                        LIMIT :limit
+                    ) as topPlayers
+                ");
+                $stmt->bindValue(':team', $team);
+                $stmt->bindValue(':position', $position);
+                $stmt->bindValue(':limit', $limit, PDO::PARAM_INT);
+                $stmt->execute();
+                return round($stmt->fetchColumn(), 1);
+            }
+            
+            $avgForwards = getAverageRating($pdo, 'Anaheim Ducks', 'F', 12);
+            $avgDefense  = getAverageRating($pdo, 'Anaheim Ducks', 'D', 6);
+            $avgGoalies  = getAverageRating($pdo, 'Anaheim Ducks', 'G', 2);
+            ?>
+            
+            <div class="average-ratings" style="text-align:center; margin:20px 0;">
+                <div style="display:inline-block; margin:0 20px;">
+                    <h3>Forwards</h3>
+                    <p><?php echo $avgForwards; ?></p>
+                </div>
+                <div style="display:inline-block; margin:0 20px;">
+                    <h3>Defense</h3>
+                    <p><?php echo $avgDefense; ?></p>
+                </div>
+                <div style="display:inline-block; margin:0 20px;">
+                    <h3>Goalies</h3>
+                    <p><?php echo $avgGoalies; ?></p>
+                </div>
+            </div>
+
+
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
                 <a href="nhl_BOS.php" class="w3-button w3-right w3-text-black">Boston Bruins &#10095;</a>

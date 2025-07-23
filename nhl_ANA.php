@@ -105,7 +105,7 @@ $(document).ready(function () {
                 `<span style="
                     background-color: ${bgColor};
                     color: white;
-                    padding: 2px 10px;
+                    padding: 2px 2px;
                     border-radius: 8px;
                     display: inline-block;
                     text-align: center;

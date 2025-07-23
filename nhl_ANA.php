@@ -101,17 +101,17 @@ $(document).ready(function () {
         const text = $(this).text().trim();
         if (text === 'UFA') {
             $(this).css({
-                'background-color': 'blue',
+                'background-color': 'red',
                 'color': 'white',
-                'padding': '6px 2px',
-                'border-radius': '4px',
+                'padding': '2px 10px',
+                'border-radius': '8px',
                 'display': 'inline-block'
             });
         } else if (text === 'RFA') {
             $(this).css({
-                'background-color': 'red',
+                'background-color': 'blue',
                 'color': 'white',
-                'padding': '2px 6px',
+                'padding': '2px 10px',
                 'border-radius': '8px',
                 'display': 'inline-block'
             });

@@ -103,7 +103,7 @@ $(document).ready(function () {
             $(this).css({
                 'background-color': 'blue',
                 'color': 'white',
-                'padding': '2px 6px',
+                'padding': '6px 2px',
                 'border-radius': '4px',
                 'display': 'inline-block'
             });

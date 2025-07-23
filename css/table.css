@@ -89,4 +89,13 @@ h2 {
         font-size: 7px;
     }
 }
+
+/* Rights Coloring */
+td:contains("UFA") {
+    color: blue;
+}
+
+td:contains("RFA") {
+    color: red;
+}
 /*!================*/

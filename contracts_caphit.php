@@ -26,44 +26,7 @@ $capFormatted = '$' . number_format($totalCap, 0);
 $capMax = '$95,500,000';
 ?>
 
-<!-- Centered Flex container -->
+<!-- Flex container for centered layout -->
 <div style="
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    gap: 15px;
-    margin: 10px 0;
-">
-
-    <!-- Contracts Box -->
-    <div style="
-        background-color: #f5f5f5;
-        border: 2px solid #F47A38;
-        border-radius: 8px;
-        padding: 6px 12px;
-        font-size: 14px;      /* Smaller font */
-        font-weight: bold;
-        color: #333;
-        text-align: center;
-        min-width: 110px;
-    ">
-        Contracts<br>
-        <?php echo $contracts; ?> / 50
-    </div>
-
-    <!-- Cap Hit Box -->
-    <div style="
-        background-color: #f5f5f5;
-        border: 2px solid #F47A38;
-        border-radius: 8px;
-        padding: 6px 12px;
-        font-size: 14px;      /* Smaller font */
-        font-weight: bold;
-        color: #333;
-        text-align: center;
-        min-width: 180px;
-    ">
-        Cap Hit<br>
-        <?php echo $capFormatted; ?> / <?php echo $capMax; ?>
-    </div>
-
-</div>
+    justify-content: center

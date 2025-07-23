@@ -77,7 +77,7 @@
 
             <!--====== Average Ratings ======-->
             <?php $teamName = 'Anaheim Ducks'; ?>
-            <?php include 'average-ratings.php'; ?>
+            <?php include 'average_ratings.php'; ?>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">

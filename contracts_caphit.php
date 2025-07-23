@@ -44,13 +44,15 @@ if (!isset($teamName)) {
 
 $teamColor = getTeamColor($teamName);
 
-/* --- Contracts Count --- */
+/* --- Contracts Count (exclude Buyout rights) --- */
 $queryContracts = "SELECT COUNT(*) AS total_contracts 
                    FROM nhl_player_data 
-                   WHERE signedTeam = :teamName";
+                   WHERE signedTeam = :teamName
+                     AND (rights IS NULL OR rights <> 'Buyout')";
 $stmt = $pdo->prepare($queryContracts);
 $stmt->execute(['teamName' => $teamName]);
 $contracts = $stmt->fetch(PDO::FETCH_ASSOC)['total_contracts'];
+
 
 /* --- Cap Hit Sum (handles $ and , in DB) --- */
 $queryCap = "

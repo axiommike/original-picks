@@ -1,8 +1,21 @@
 <?php
+function getTeamColor($teamName) {
+    $colors = [
+        'Anaheim Ducks' => '#F47A38',
+        'Boston Bruins' => '#FFB81C',
+        'Edmonton Oilers' => '#00205B',
+        'Toronto Maple Leafs' => '#003E7E',
+        // add other teams as needed
+    ];
+    return $colors[$teamName] ?? '#333'; // default dark gray if no match
+}
+
 if (!isset($teamName)) {
     echo "<p>Error: Team name not set.</p>";
     return;
 }
+
+$teamColor = getTeamColor($teamName);
 
 /* --- Contracts Count --- */
 $queryContracts = "SELECT COUNT(*) AS total_contracts 
@@ -29,4 +42,39 @@ $capMax = '$95,500,000';
 <!-- Flex container for centered layout -->
 <div style="
     display: flex;
-    justify-content: center
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0;
+">
+
+    <!-- Contracts Box -->
+    <div style="
+        background-color: #f5f5f5;
+        border: 2px solid <?php echo $teamColor; ?>;
+        border-radius: 10px;
+        padding: 6px 14px;
+        font-size: 14px;
+        color: #333;
+        text-align: center;
+        min-width: 110px;
+    ">
+        <strong>Contracts</strong><br>
+        <i><?php echo $contracts; ?> / 50</i>
+    </div>
+
+    <!-- Cap Hit Box -->
+    <div style="
+        background-color: #f5f5f5;
+        border: 2px solid <?php echo $teamColor; ?>;
+        border-radius: 10px;
+        padding: 6px 14px;
+        font-size: 14px;
+        color: #333;
+        text-align: center;
+        min-width: 180px;
+    ">
+        <strong>Cap Hit</strong><br>
+        <i><?php echo $capFormatted; ?> / <?php echo $capMax; ?></i>
+    </div>
+
+</div>

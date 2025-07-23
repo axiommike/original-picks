@@ -99,22 +99,9 @@
 $(document).ready(function () {
     $('td').each(function () {
         const text = $(this).text().trim();
-        if (text === 'UFA') {
-            $(this).css({
-                'background-color': 'red',
-                'color': 'white',
-                'padding': '2px 10px',
-                'border-radius': '8px',
-                'display': 'inline-block'
-            });
-        } else if (text === 'RFA') {
-            $(this).css({
-                'background-color': 'blue',
-                'color': 'white',
-                'padding': '2px 10px',
-                'border-radius': '8px',
-                'display': 'inline-block'
-            });
+        if (text === 'UFA' || text === 'RFA') {
+            const color = text === 'UFA' ? 'blue' : 'red';
+            $(this).html(`<span class="rights-badge ${text.toLowerCase()}">${text}</span>`);
         }
     });
 });

@@ -125,5 +125,35 @@ $(document).ready(function () {
 });
 </script>
 
+<script>
+$(document).ready(function () {
+    function averageRating(position, topN) {
+        let sum = 0, count = 0;
+        // Assuming your table rows are marked up with position in a data attribute or class
+        // For example, your PHP-generated table should have a way to identify position per row
+        // Here, we'll select the correct rows based on a column that holds position
+
+        // Adjust selector based on your actual HTML structure; below is a generic example:
+        $('table.custom-table tbody tr').each(function () {
+            const pos = $(this).find('td.position').text().trim(); // Assuming position column has class "position"
+            if (pos === position && count < topN) {
+                const ratingText = $(this).find('td.nhlrating').text().trim();
+                const rating = parseFloat(ratingText);
+                if (!isNaN(rating)) {
+                    sum += rating;
+                    count++;
+                }
+            }
+        });
+        return count > 0 ? (sum / count).toFixed(2) : '--';
+    }
+
+    // Update circles text
+    $('#forwards-average').text('F: ' + averageRating('F', 12));
+    $('#defensemen-average').text('D: ' + averageRating('D', 6));
+    $('#goalies-average').text('G: ' + averageRating('G', 2));
+});
+</script>
+
 </body>
 </html>

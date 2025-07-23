@@ -67,6 +67,10 @@
             <div class="title-logo">
                 <h2>Toronto Maple Leafs</h2>
 
+                <!--====== Contracts and Cap Hit Tracker ======-->
+                <?php $teamName = 'Toronto Maple Leafs'; ?>
+                <?php include 'contracts_caphit.php'; ?>
+
                 <div class="team-info">
                     <h3><strong>Coach:</strong> <i>Craig Berube</i></h3>
                     <h3><strong>General Manager:</strong> <i>Brad Treliving</i></h3>

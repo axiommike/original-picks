@@ -110,6 +110,7 @@ $(document).ready(function () {
                     display: inline-block;
                     text-align: center;
                     min-width: 40px;
+                    margin-bottom: 4px;
                 ">${text}</span>`
             );
             $(this).css('text-align', 'center');

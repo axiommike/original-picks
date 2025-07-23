@@ -112,7 +112,7 @@ $(document).ready(function () {
                 'background-color': 'red',
                 'color': 'white',
                 'padding': '2px 6px',
-                'border-radius': '4px',
+                'border-radius': '8px',
                 'display': 'inline-block'
             });
         }

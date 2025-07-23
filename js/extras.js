@@ -1,8 +1,16 @@
 $(document).ready(function () {
     $('td').each(function () {
         const text = $(this).text().trim();
-        if (text === 'UFA' || text === 'RFA') {
-            const bgColor = text === 'UFA' ? 'red' : 'blue';
+
+        // Determine background color
+        let bgColor = null;
+        if (text === 'UFA') bgColor = 'red';
+        else if (text === 'RFA') bgColor = 'blue';
+        else if (text === 'Retained') bgColor = 'grey';
+        else if (text === 'Buyout') bgColor = 'black';
+
+        // Apply style if matched
+        if (bgColor) {
             $(this).html(
                 `<span style="
                     background-color: ${bgColor};

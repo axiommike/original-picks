@@ -78,7 +78,7 @@
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
                 <a href="nhl_TBL.php" class="w3-button w3-text-black">&#10094; Tampa Bay Lightning</a>
-                <a href="nhl_UTH.php" class="w3-button w3-right w3-text-black">Utah Mammoth &#10095;</a>
+                <a href="nhl_UTA.php" class="w3-button w3-right w3-text-black">Utah Mammoth &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->

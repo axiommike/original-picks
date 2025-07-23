@@ -67,14 +67,14 @@
             <div class="title-logo">
                 <h2>Anaheim Ducks</h2>
 
-                <div class="team-info">
-                    <h3><strong>Coach:</strong> <i>Joel Quenneville</i></h3>
-                    <h3><strong>General Manager:</strong> <i>Pat Verbeek</i></h3>
-                 </div> 
-        
                 <!--====== Contracts and Cap Hit Tracker ======-->
                 <?php $teamName = 'Anaheim Ducks'; ?>
                 <?php include 'contracts_caphit.php'; ?>
+
+                <div class="team-info">
+                    <h3><strong>Coach:</strong> <i>Joel Quenneville</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Pat Verbeek</i></h3>
+                 </div>
 
                 <img src="images/logo-ducks.png" alt="Title Logo">
             </div>

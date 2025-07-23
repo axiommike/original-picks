@@ -32,7 +32,7 @@ switch ($page) {
     case 'nhl_STL':
     case 'nhl_TBL':
     case 'nhl_TOR':
-    case 'nhl_UTH':
+    case 'nhl_UTA':
     case 'nhl_VAN':
     case 'nhl_VGK':
     case 'nhl_WPG':
@@ -65,7 +65,7 @@ switch ($page) {
     case 'op_STL':
     case 'op_TBL':
     case 'op_TOR':
-    case 'op_UTH':
+    case 'op_UTA':
     case 'op_VAN':
     case 'op_VGK':
     case 'op_WPG':
@@ -130,7 +130,7 @@ switch ($page) {
             <a href="nhl_STL.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-blues.png" alt="St. Louis Blues Logo">St. Louis Blues</a>
             <a href="nhl_TBL.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-lightning.png" alt="Tampa Bay Lightning Logo">Tampa Bay Lightning</a>
             <a href="nhl_TOR.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-mapleleafs.png" alt="Toronto Maple Leafs Logo">Toronto Maple Leafs</a>
-            <a href="nhl_UTH.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-mammoth.png" alt="Utah Mammoth Logo">Utah Mammoth</a>
+            <a href="nhl_UTA.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-mammoth.png" alt="Utah Mammoth Logo">Utah Mammoth</a>
             <a href="nhl_VAN.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-canucks.png" alt="Vancouver Canucks Logo">Vancouver Canucks</a>
             <a href="nhl_VGK.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-goldenknights.png" alt="Vegas Golden Knights Logo">Vegas Golden Knights</a>
             <a href="nhl_WSH.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-capitals.png" alt="Washington Capitals Logo">Washington Capitals</a>
@@ -170,7 +170,7 @@ switch ($page) {
             <a href="op_STL.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-blues.png" alt="St. Louis Blues Logo">St. Louis Blues</a>
             <a href="op_TBL.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-lightning.png" alt="Tampa Bay Lightning Logo">Tampa Bay Lightning</a>
             <a href="op_TOR.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-mapleleafs.png" alt="Toronto Maple Leafs Logo">Toronto Maple Leafs</a>
-            <a href="op_UTH.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-mammoth.png" alt="Utah Mammoth Logo">Utah Mammoth</a>
+            <a href="op_UTA.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-mammoth.png" alt="Utah Mammoth Logo">Utah Mammoth</a>
             <a href="op_VAN.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-canucks.png" alt="Vancouver Canucks Logo">Vancouver Canucks</a>
             <a href="op_VGK.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-goldenknights.png" alt="Vegas Golden Knights Logo">Vegas Golden Knights</a>
             <a href="op_WSH.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-capitals.png" alt="Washington Capitals Logo">Washington Capitals</a>

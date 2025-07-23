@@ -4,13 +4,13 @@ function getAverageRating($pdo, $team, $position, $limit) {
         SELECT AVG(nhlRating) as avgRating 
         FROM (
             SELECT nhlRating 
-            FROM players 
-            WHERE team = :team AND position = :position 
+            FROM nhl_player_data 
+            WHERE signedTeam = :signedTeam AND position = :position 
             ORDER BY nhlRating DESC 
             LIMIT :limit
         ) as topPlayers
     ");
-    $stmt->bindValue(':team', $team);
+    $stmt->bindValue(':signedTeam', $team);
     $stmt->bindValue(':position', $position);
     $stmt->bindValue(':limit', $limit, PDO::PARAM_INT);
     $stmt->execute();

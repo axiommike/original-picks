@@ -70,7 +70,11 @@
                 <div class="team-info">
                     <h3><strong>Coach:</strong> <i>Joel Quenneville</i></h3>
                     <h3><strong>General Manager:</strong> <i>Pat Verbeek</i></h3>
-                 </div>  
+                 </div> 
+        
+                <!--====== Contracts Tracker ======-->
+                <?php $teamName = 'Anaheim Ducks'; ?>
+                <?php include 'contracts.php'; ?>
 
                 <img src="images/logo-ducks.png" alt="Title Logo">
             </div>

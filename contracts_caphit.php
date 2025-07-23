@@ -1,11 +1,38 @@
 <?php
 function getTeamColor($teamName) {
     $colors = [
-        'Anaheim Ducks' => '#F47A38',
-        'Boston Bruins' => '#FFB81C',
-        'Edmonton Oilers' => '#00205B',
-        'Toronto Maple Leafs' => '#003E7E',
-        // add other teams as needed
+        'Anaheim Ducks'       => '#F47A38',
+        'Boston Bruins'       => '#FFB81C',
+        'Buffalo Sabres'      => '#003087',
+        'Carolina Hurricanes' => '#CE1126',
+        'Columbus Blue Jackets' => '#002654',
+        'Calgary Flames'      => '#D2001C',
+        'Chicago Blackhawks'  => '#CF0A2C',
+        'Colorado Avalanche'  => '#6F263D',
+        'Dallas Stars'        => '#006847',
+        'Detroit Red Wings'   => '#CE1126',
+        'Edmonton Oilers'     => '#072b86',
+        'Florida Panthers'    => '#C8102E',
+        'Los Angeles Kings'   => '#111111',
+        'Minnesota Wild'      => '#154734',
+        'Montreal Canadiens'  => '#AF1E2D',
+        'New Jersey Devils'   => '#CE1126',
+        'Nashville Predators' => '#FFB81C',
+        'New York Islanders'  => '#00539B',
+        'New York Rangers'    => '#0038A8',
+        'Ottawa Senators'     => '#000000',
+        'Philadelphia Flyers' => '#F74902',
+        'Pittsburgh Penguins' => '#FCB514',
+        'Seattle Kraken'      => '#99D9D9',
+        'San Jose Sharks'     => '#006D75',
+        'St. Louis Blues'     => '#002F87',
+        'Tampa Bay Lightning' => '#002868',
+        'Toronto Maple Leafs' => '#00205B',
+        'Utah Mammoth'        => '#6cace4',  
+        'Vancouver Canucks'   => '#00205B',
+        'Vegas Golden Knights'=> '#B4975A',
+        'Winnipeg Jets'       => '#041E42',
+        'Washington Capitals' => '#C8102E',
     ];
     return $colors[$teamName] ?? '#333'; // default dark gray if no match
 }

@@ -137,7 +137,7 @@ $(document).ready(function () {
         $('table.custom-table tbody tr').each(function () {
             const pos = $(this).find('td.position').text().trim(); // Assuming position column has class "position"
             if (pos === position && count < topN) {
-                const ratingText = $(this).find('td.nhlrating').text().trim();
+                const ratingText = $(this).find('td.nhlRating').text().trim();
                 const rating = parseFloat(ratingText);
                 if (!isNaN(rating)) {
                     sum += rating;

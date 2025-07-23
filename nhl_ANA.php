@@ -105,13 +105,13 @@ $(document).ready(function () {
                 `<span style="
                     background-color: ${bgColor};
                     color: white;
-                    padding: 2px 10px;
+                    padding: 2px 8px;
                     border-radius: 8px;
                     display: inline-block;
                     text-align: center;
                     min-width: 20px;
                     margin: 0;                    
-                    line-height: 1;
+                    line-height: 2;
                 ">${text}</span>`
             );
             $(this).css('text-align', 'center');

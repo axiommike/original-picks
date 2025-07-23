@@ -94,7 +94,7 @@
 
     <!--====== JS ======-->
     <script src="js/navbar.js"></script>
-    <script src="js/ufa-rfa.js"></script>
+    <script src="js/extras.js"></script>
 
 
 </body>

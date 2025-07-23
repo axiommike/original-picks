@@ -13,7 +13,7 @@
         .banner {
             width: 100%;
             min-height: 100vh;
-            background-image: url("images/background-ducks.png");
+            background-image: url("images/ice.png");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;

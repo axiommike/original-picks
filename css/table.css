@@ -66,6 +66,22 @@ h2 {
     margin-top: 10px;
     color: #666;
 }
+
+/* Rights Badge Styling */
+.rights-badge {
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.rights-badge.ufa {
+    background-color: blue;
+}
+
+.rights-badge.rfa {
+    background-color: red;
+}
 /*!================*/
 
 
@@ -89,17 +105,4 @@ h2 {
         font-size: 7px;
     }
 }
-
-<script>
-$(document).ready(function () {
-    $('td').each(function () {
-        const text = $(this).text().trim();
-        if (text === 'UFA') {
-            $(this).css('color', 'blue');
-        } else if (text === 'RFA') {
-            $(this).css('color', 'red');
-        }
-    });
-});
-</script>
 /*!================*/

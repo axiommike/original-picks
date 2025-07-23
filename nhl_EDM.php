@@ -75,6 +75,10 @@
                 <img src="images/logo-oilers.png" alt="Title Logo">
             </div>
 
+            <!--====== Average Ratings ======-->
+            <?php $teamName = 'Edmonton Oilers'; ?>
+            <?php include 'average_ratings.php'; ?>
+
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
                 <a href="nhl_DET.php" class="w3-button w3-text-black">&#10094; Detroit Red Wings</a>
@@ -95,6 +99,7 @@
 
     <!--====== JS ======-->
     <script src="js/navbar.js"></script>
+    <script src="js/extras.js"></script>
 
 </body>
 </html>

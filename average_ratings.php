@@ -14,7 +14,7 @@ function getAverageRating($pdo, $team, $position, $limit) {
     $stmt->bindValue(':position', $position);
     $stmt->bindValue(':limit', $limit, PDO::PARAM_INT);
     $stmt->execute();
-    return round($stmt->fetchColumn(), 1);
+    return round($stmt->fetchColumn());
 }
 
 $avgForwards = getAverageRating($pdo, $teamName, 'F', 12);
@@ -29,16 +29,43 @@ $avgGoalies  = getAverageRating($pdo, $teamName, 'G', 2);
     justify-content:center;
     gap:40px;
 ">
-    <div>
-        <h3>Forwards</h3>
-        <p style="font-size:24px; font-weight:bold;"><?php echo $avgForwards; ?></p>
+    <div style="
+        width: 60px; height: 60px;
+        border: 2px solid #000;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: bold;
+        user-select: none;
+    ">
+        <?php echo $avgForwards; ?>
     </div>
-    <div>
-        <h3>Defense</h3>
-        <p style="font-size:24px; font-weight:bold;"><?php echo $avgDefense; ?></p>
+    <div style="
+        width: 60px; height: 60px;
+        border: 2px solid #000;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: bold;
+        user-select: none;
+    ">
+        <?php echo $avgDefense; ?>
     </div>
-    <div>
-        <h3>Goalies</h3>
-        <p style="font-size:24px; font-weight:bold;"><?php echo $avgGoalies; ?></p>
+    <div style="
+        width: 60px; height: 60px;
+        border: 2px solid #000;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: bold;
+        user-select: none;
+    ">
+        <?php echo $avgGoalies; ?>
     </div>
 </div>

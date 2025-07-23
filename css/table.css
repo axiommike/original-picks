@@ -90,20 +90,4 @@ h2 {
         font-size: 7px;
     }
 }
-
-/* Rights Badge Styling */
-.rights-badge {
-    color: white;
-    padding: 2px 6px;
-    border-radius: 4px;
-    display: inline-block;
-}
-
-.rights-badge.ufa {
-    background-color: blue;
-}
-
-.rights-badge.rfa {
-    background-color: red;
-}
 /*!================*/

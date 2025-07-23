@@ -58,7 +58,6 @@ $capMax = '$95,500,000';
         text-align: center;
         min-width: 110px;
     ">
-        <strong>Contracts</strong><br>
         <i><?php echo $contracts; ?> / 50</i>
     </div>
 
@@ -73,7 +72,6 @@ $capMax = '$95,500,000';
         text-align: center;
         min-width: 180px;
     ">
-        <strong>Cap Hit</strong><br>
         <i><?php echo $capFormatted; ?> / <?php echo $capMax; ?></i>
     </div>
 

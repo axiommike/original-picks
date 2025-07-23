@@ -97,6 +97,12 @@
             <!--====== Goalies Table ======-->
             <?php generateTable($pdo, 'Anaheim Ducks', 'G', 10, 'Goalies', 1); ?>
 
+            <?php 
+            $teamName = 'Anaheim Ducks'; // or dynamically set 
+            include 'retained_salaries_table.php';
+            ?>
+
+
         </div>
     </header>
 

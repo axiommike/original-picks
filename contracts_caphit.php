@@ -54,23 +54,25 @@ $contracts = $stmt->fetch(PDO::FETCH_ASSOC)['total_contracts'];
 
 /* --- Cap Hit Sum (handles $ and , in DB) --- */
 $queryCap = "
-    SELECT SUM(REPLACE(REPLACE(capHit, '$', ''), ',', '')) AS total_cap
+WITH RankedPlayers AS (
+    SELECT *,
+        ROW_NUMBER() OVER (PARTITION BY signedTeam, position ORDER BY nhlRating DESC) AS playerRank
     FROM nhl_player_data
     WHERE signedTeam = :teamName
-    AND (
-        REPLACE(REPLACE(capHit, '$', ''), ',', '') > 1000000
-        OR (
-            (position = 'F' AND playerRank <= 12)
-            OR (position = 'D' AND playerRank <= 6)
-            OR (position = 'G' AND playerRank <= 2)
-        )
+)
+SELECT SUM(REPLACE(REPLACE(capHit, '$', ''), ',', '')) AS total_cap
+FROM RankedPlayers
+WHERE 
+    REPLACE(REPLACE(capHit, '$', ''), ',', '') > 1000000
+    OR (
+        (position = 'F' AND playerRank <= 12)
+        OR (position = 'D' AND playerRank <= 6)
+        OR (position = 'G' AND playerRank <= 2)
     )
 ";
-
 $stmt = $pdo->prepare($queryCap);
 $stmt->execute(['teamName' => $teamName]);
 $totalCap = $stmt->fetch(PDO::FETCH_ASSOC)['total_cap'] ?? 0;
-
 
 /* --- Format Cap Hit --- */
 $capFormatted = '$' . number_format($totalCap, 0);

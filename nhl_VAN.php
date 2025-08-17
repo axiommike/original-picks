@@ -67,6 +67,10 @@
             <div class="title-logo">
                 <h2>Vancouver Canucks</h2>
 
+                <!--====== Contracts and Cap Hit Tracker ======-->
+                <?php $teamName = 'Vancouver Canucks'; ?>
+                <?php include 'contracts_caphit.php'; ?>
+
                 <div class="team-info">
                     <h3><strong>Coach:</strong> <i>Adam Foote</i></h3>
                     <h3><strong>General Manager:</strong> <i>Patrik Allvin</i></h3>
@@ -74,6 +78,10 @@
 
                 <img src="images/logo-canucks.png" alt="Title Logo">
             </div>
+
+            <!--====== Average Ratings ======-->
+            <?php $teamName = 'Vancouver Canucks'; ?>
+            <?php include 'average_ratings.php'; ?>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
@@ -95,6 +103,7 @@
 
     <!--====== JS ======-->
     <script src="js/navbar.js"></script>
+    <script src="js/extras.js"></script>
 
 </body>
 </html>

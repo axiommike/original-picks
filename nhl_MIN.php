@@ -67,6 +67,10 @@
             <div class="title-logo">
                 <h2>Minnesota Wild</h2>
 
+                <!--====== Contracts and Cap Hit Tracker ======-->
+                <?php $teamName = 'Minnesota Wild'; ?>
+                <?php include 'contracts_caphit.php'; ?>
+
                 <div class="team-info">
                     <h3><strong>Coach:</strong> <i>John Hynes</i></h3>
                     <h3><strong>General Manager:</strong> <i>Bill Guerin</i></h3>
@@ -74,6 +78,10 @@
 
                 <img src="images/logo-wild.png" alt="Title Logo">
             </div>
+
+            <!--====== Average Ratings ======-->
+            <?php $teamName = 'Minnesota Wild'; ?>
+            <?php include 'average_ratings.php'; ?>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
@@ -95,6 +103,7 @@
 
     <!--====== JS ======-->
     <script src="js/navbar.js"></script>
+    <script src="js/extras.js"></script>
 
 </body>
 </html>

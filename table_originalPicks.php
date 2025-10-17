@@ -15,7 +15,7 @@ function generateOriginalPickTable($pdo, $originalPick, $position, $limit, $titl
     $playerCount = count($players);
 
     // Display average rating next to the table title
-    echo "<h3>$title <span style='font-size: 20px;'>- " . number_format($averageRating) . "</span></h3>";
+    echo "<h3>$title <span style='font-size: 20px;'>- $playerCount</span></h3>";
     echo "<table class='sortable custom-table'>";
     echo "<thead style='background-color: black; color: white;'>";
     echo "<tr><th class='w3-center'>#</th><th class='w3-left-align'>&nbsp;&nbsp;&nbsp;Player Name</th><th class='w3-center'>Signed Team</th><th class='w3-center'>Cap Hit</th><th class='w3-center'>Term</th><th class='w3-center'>Rights</th><th class='w3-center'>NHL Rating</th></tr>";

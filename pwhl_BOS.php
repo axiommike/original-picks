@@ -75,6 +75,10 @@
                 <img src="images/logo-fleet.png" alt="Title Logo">
             </div>
 
+            <!--====== Average Ratings ======-->
+            <?php $teamName = 'Boston Fleet'; ?>
+            <?php include 'average_ratings.php'; ?>
+
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
                 <a href="pwhl_MIN.php" class="w3-button w3-right w3-text-black">Minnesota Frost &#10095;</a>
@@ -94,6 +98,7 @@
 
     <!--====== JS ======-->
     <script src="js/navbar.js"></script>
+    <script src="js/extras.js"></script>
 
 </body>
 </html>

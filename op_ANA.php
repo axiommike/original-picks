@@ -69,7 +69,7 @@
 
                 <!--====== Contracts and Cap Hit Tracker ======-->
                 <?php $teamName = 'Anaheim Ducks'; ?>
-                <?php include 'contracts_caphit.php'; ?>
+                <?php include 'contractsOP_caphit.php'; ?>
                 
                 <div class="team-info">
                     <h4>Original Picks</h4>

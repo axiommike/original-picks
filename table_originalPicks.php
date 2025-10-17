@@ -11,15 +11,8 @@ function generateOriginalPickTable($pdo, $originalPick, $position, $limit, $titl
 
     $players = $stmt->fetchAll();
 
-    // Calculate average rating for the specified number of top players
-    $averageRating = 0;
-    for ($i = 0; $i < min($averageCount, count($players)); $i++) {
-        $averageRating += $players[$i]['nhlRating'];
-    }
-    $averageRating /= $averageCount;
-
-    // Round the average rating to the nearest integer
-    $averageRating = round($averageRating);
+    // Count the number of players
+    $playerCount = count($players);
 
     // Display average rating next to the table title
     echo "<h3>$title <span style='font-size: 20px;'>- " . number_format($averageRating) . "</span></h3>";

@@ -77,7 +77,7 @@
 
             <!--====== Average Ratings ======-->
             <?php $teamName = 'Boston Fleet'; ?>
-            <?php include 'average_ratings.php'; ?>
+            <?php include 'averagePWHL_ratings.php'; ?>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">

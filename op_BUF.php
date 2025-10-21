@@ -66,6 +66,10 @@
         <div class="w3-responsive">
             <div class="title-logo">
                 <h2>Buffalo Sabres</h2>
+
+                <!--====== Contracts and Cap Hit Tracker ======-->
+                <?php $teamName = 'Buffalo Sabres'; ?>
+                <?php include 'contractsOP_caphit.php'; ?>
                 
                 <div class="team-info">
                     <h4>Original Picks</h4>
@@ -73,6 +77,10 @@
 
                 <img src="images/logo-sabres.png" alt="Title Logo">
             </div>
+
+            <!--====== Average Ratings ======-->
+            <?php $teamName = 'Buffalo Sabres'; ?>
+            <?php include 'averageOP_ratings.php'; ?>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
@@ -94,6 +102,7 @@
 
     <!--====== JS ======-->
     <script src="js/navbar.js"></script>
+    <script src="js/extras.js"></script>
 
 </body>
 </html>

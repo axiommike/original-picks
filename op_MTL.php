@@ -66,6 +66,10 @@
         <div class="w3-responsive">
             <div class="title-logo">
                 <h2>Montreal Canadiens</h2>
+
+                <!--====== Contracts and Cap Hit Tracker ======-->
+                <?php $teamName = 'Montreal Canadiens'; ?>
+                <?php include 'contractsOP_caphit.php'; ?>
                 
                 <div class="team-info">
                     <h4>Original Picks</h4>
@@ -73,6 +77,10 @@
 
                 <img src="images/logo-canadiens.png" alt="Title Logo">
             </div>
+
+            <!--====== Average Ratings ======-->
+            <?php $teamName = 'Montreal Canadiens'; ?>
+            <?php include 'averageOP_ratings.php'; ?>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
@@ -94,6 +102,7 @@
 
     <!--====== JS ======-->
     <script src="js/navbar.js"></script>
+    <script src="js/extras.js"></script>
 
 </body>
 </html>

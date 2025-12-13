@@ -75,6 +75,10 @@
                 <img src="images/logo-frost.png" alt="Title Logo">
             </div>
 
+            <!--====== Average Ratings ======-->
+            <?php $teamName = 'Minnesota Frost'; ?>
+            <?php include 'averagePWHL_ratings.php'; ?>
+
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
                 <a href="pwhl_BOS.php" class="w3-button w3-text-black">&#10094; Boston Fleet</a>
@@ -95,6 +99,7 @@
 
     <!--====== JS ======-->
     <script src="js/navbar.js"></script>
+    <script src="js/extras.js"></script>
 
 </body>
 </html>

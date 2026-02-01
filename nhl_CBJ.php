@@ -72,7 +72,7 @@
                 <?php include 'contracts_caphit.php'; ?>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> <i>Dean Evason</i></h3>
+                    <h3><strong>Coach:</strong> <i>Rick Bowness</i></h3>
                     <h3><strong>General Manager:</strong> <i>Don Waddell</i></h3>
                  </div>  
 

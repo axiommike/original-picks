@@ -72,7 +72,7 @@
                 <?php include 'contracts_caphit.php'; ?>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> <i>Patrick Roy</i></h3>
+                    <h3><strong>Coach:</strong> <i>Peter DeBoer</i></h3>
                     <h3><strong>General Manager:</strong> <i>Mathieu Darche</i></h3>
                  </div>  
 

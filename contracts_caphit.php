@@ -78,7 +78,7 @@ $totalCap = $stmt->fetch(PDO::FETCH_ASSOC)['total_cap'] ?? 0;
 
 /* --- Format Cap Hit --- */
 $capFormatted = '$' . number_format($totalCap, 0);
-$capMax = '$95,500,000';
+$capMax = '$104,000,000';
 ?>
 
 <!-- Flex container for centered layout -->

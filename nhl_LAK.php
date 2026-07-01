@@ -72,7 +72,7 @@
                 <?php include 'contracts_caphit.php'; ?>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> <i>Jim Hiller</i></h3>
+                    <h3><strong>Coach:</strong> <i>Peter Laviolette</i></h3>
                     <h3><strong>General Manager:</strong> <i>Ken Holland</i></h3>
                  </div>  
 

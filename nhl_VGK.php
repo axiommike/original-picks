@@ -72,7 +72,7 @@
                 <?php include 'contracts_caphit.php'; ?>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> <i>John Tortorella</i></h3>
+                    <h3><strong>Coach:</strong> <i>Ryan Craig</i></h3>
                     <h3><strong>General Manager:</strong> <i>Kelly McCrimmon</i></h3>
                  </div>  
 

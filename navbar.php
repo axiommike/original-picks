@@ -230,6 +230,7 @@ switch ($page) {
             <a href="draft_2023.php" class="dropdown-link"><img class="dropdown-img" src="images/2023.png" alt="Draft Logo">2023 NHL Draft</a>
             <a href="draft_2024.php" class="dropdown-link"><img class="dropdown-img" src="images/2024.png" alt="Draft Logo">2024 NHL Draft</a>
             <a href="draft_2025.php" class="dropdown-link"><img class="dropdown-img" src="images/2025.png" alt="Draft Logo">2025 NHL Draft</a>
+            <a href="draft_2026.php" class="dropdown-link"><img class="dropdown-img" src="images/2026.png" alt="Draft Logo">2026 NHL Draft</a>
         </div>
     </div> 
 

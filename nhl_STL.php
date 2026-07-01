@@ -73,7 +73,7 @@
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> <i>Jim Montgomery</i></h3>
-                    <h3><strong>General Manager:</strong> <i>Doug Armstrong</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Alexander Steen</i></h3>
                  </div>  
 
                 <img src="images/logo-blues.png" alt="Title Logo">

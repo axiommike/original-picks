@@ -72,8 +72,8 @@
                 <?php include 'contracts_caphit.php'; ?>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> <i>Craig Berube</i></h3>
-                    <h3><strong>General Manager:</strong> <i>Brad Treliving</i></h3>
+                    <h3><strong>Coach:</strong> <i>Jim Hiller</i></h3>
+                    <h3><strong>General Manager:</strong> <i>John Chayka</i></h3>
                  </div>  
 
                 <img src="images/logo-mapleleafs.png" alt="Title Logo">

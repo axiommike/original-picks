@@ -72,7 +72,7 @@
                 <?php include 'contracts_caphit.php'; ?>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> <i>Kris Knoblauch</i></h3>
+                    <h3><strong>Coach:</strong> <i>Mike Babcock</i></h3>
                     <h3><strong>General Manager:</strong> <i>Stan Bowman</i></h3>
                  </div>  
 

@@ -72,8 +72,8 @@
                 <?php include 'contracts_caphit.php'; ?>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> <i>Adam Foote</i></h3>
-                    <h3><strong>General Manager:</strong> <i>Patrik Allvin</i></h3>
+                    <h3><strong>Coach:</strong> <i>Manny Malhotra</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Ryan Johnson</i></h3>
                  </div>  
 
                 <img src="images/logo-canucks.png" alt="Title Logo">

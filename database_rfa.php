@@ -72,8 +72,8 @@
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="database_nhl.php" class="w3-button w3-right w3-text-black">NHL Database &#10095;</a>
-                <a href="database_pwhl.php" class="w3-button w3-text-black">&#10094; PWHL Database</a>
+                <a href="database_nhl.php" class="w3-button w3-text-black">&#10094; NHL Player Database</a>
+                <a href="database_fa.php" class="w3-button w3-right w3-text-black">Free Agent Database &#10095;</a>
             </div>
 
             <!--====== Database Table ======-->

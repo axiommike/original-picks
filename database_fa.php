@@ -72,7 +72,7 @@
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="database_pwhl.php" class="w3-button w3-text-black">&#10094; PWHL Database</a>
+                <a href="database_rfa.php" class="w3-button w3-text-black">&#10094; Restricted Free Agents</a>
             </div>
 
             <!--====== Database Table ======-->

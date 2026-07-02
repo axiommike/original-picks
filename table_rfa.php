@@ -4,9 +4,16 @@ require("includes/db.inc.php");
 function generateTable($pdo, $title)
 {
     // Pulls from the database
-    $stmt = $pdo->prepare('SELECT * FROM nhl_player_data WHERE signedTeam = "Free Agent" ORDER BY nhlRating DESC, capHit DESC, term DESC');
-    $stmt->execute();
-    $players = $stmt->fetchAll();
+    $stmt = $pdo->prepare('
+    SELECT *
+    FROM nhl_player_data
+    WHERE signedTeam = "Free Agent"
+      AND rights = "RFA"
+    ORDER BY nhlRating DESC, capHit DESC, term DESC
+');
+
+$stmt->execute();
+$players = $stmt->fetchAll();
 
     // Displays table headers and structure
     echo "<h3>$title <span style='font-size: 20px;'></span></h3>";

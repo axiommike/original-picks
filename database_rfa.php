@@ -36,13 +36,13 @@
 
         .custom-table th {
             color: #fff; /* Change to your desired text color */
-            background-color: #33058c;
+            background-color: #000;
         }
 
         /* Image Size */
         .title-logo img {
-            width: 110px; 
-            height: 100px; 
+            width: 90px; 
+            height: 80px; 
         }
     </style>
 
@@ -50,9 +50,9 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> 
 
     <!--====== Table ======-->
-    <?php include 'table_pwhlDatabase.php'; ?>
+    <?php include 'table_rfa.php'; ?>
 
-    <title>PWHL Player Database - Players Database - NHL Original Picks</title>
+    <title>NHL Restricted Free Agent Database - Players Database - NHL Original Picks</title>
 </head>
 
 <body>
@@ -66,14 +66,13 @@
         <!--====== Table ======-->
         <div class="w3">
             <div class="title-logo">
-                <h2>PWHL PLAYER DATABASE</h2>
-                <img src="images/pwhl.png" alt="Title Logo">
+                <h2>NHL RESTRICTED FREE AGENTS</h2>
+                <img src="images/nhl.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="database_fa.php" class="w3-button w3-right w3-text-black">Free Agents &#10095;</a>
-                <a href="database_nhl.php" class="w3-button w3-text-black">&#10094; NHL Database</a>
+                <a href="database_pwhl.php" class="w3-button w3-text-black">&#10094; PWHL Database</a>
             </div>
 
             <!--====== Database Table ======-->

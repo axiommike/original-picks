@@ -81,7 +81,7 @@
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="pwhl_BOS.php" class="w3-button w3-text-black">&#10094; Boston Fleet</a>
+                <a href="pwhl_LV.php" class="w3-button w3-text-black">&#10094; Las Vegas PWHL</a>
                 <a href="pwhl_MTL.php" class="w3-button w3-right w3-text-black">Montreal Victoire &#10095;</a>
             </div>
 

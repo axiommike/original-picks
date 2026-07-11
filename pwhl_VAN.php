@@ -68,7 +68,7 @@
                 <h2>PWHL Vancouver</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> <i>Brian Idalski</i></h3>
+                    <h3><strong>Coach:</strong> <i>VACANT</i></h3>
                     <h3><strong>General Manager:</strong> <i>Cara Gardner Morey</i></h3>
                  </div>  
 

@@ -38,7 +38,7 @@ switch ($page) {
     case 'nhl_WPG':
     case 'nhl_WSH':
     case 'op_ANA':
-    case 'op_ARI' :
+    case 'op_ARI':
     case 'op_BOS':
     case 'op_BUF':
     case 'op_CAR':

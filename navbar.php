@@ -71,10 +71,14 @@ switch ($page) {
     case 'op_WPG':
     case 'op_WSH':
     case 'pwhl_BOS':
+    case 'pwhl_DET':
+    case 'pwhl_HAM':
+    case 'pwhl_LV':
     case 'pwhl_MIN':
     case 'pwhl_MTL':
     case 'pwhl_NYS':
     case 'pwhl_OTT':
+    case 'pwhl_SJ':
     case 'pwhl_SEA':
     case 'pwhl_TOR':
     case 'pwhl_VAN':
@@ -183,10 +187,14 @@ switch ($page) {
         <button class="dropbtn" onclick="toggleDropdown(this)">PWHL Rosters</button>
         <div class="dropdown-content pwhl">
             <a href="pwhl_BOS.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-fleet.png" alt="Boston Fleet Logo">Boston Fleet</a>
+            <a href="pwhl_DET.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-detroit.png" alt="Detroit PWHL Logo">Detroit PWHL</a>
+            <a href="pwhl_HAM.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-hamilton.png" alt="Hamilton PWHL Logo">Hamilton PWHL</a>
+            <a href="pwhl_LV.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-lasvegas.png" alt="Las Vegas PWHL Logo">Las Vegas PWHL</a>
             <a href="pwhl_MIN.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-frost.png" alt="Minnesota Frost Logo">Minnesota Frost</a>
             <a href="pwhl_MTL.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-victoire.png" alt="Montreal Victoire Logo">Montreal Victoire</a>
             <a href="pwhl_NYS.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-sirens.png" alt="New York Sirens Logo">New York Sirens</a>
             <a href="pwhl_OTT.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-charge.png" alt="Ottawa Charge Logo">Ottawa Charge</a>
+            <a href="pwhl_SJ.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-sanjose.png" alt="San Jose PWHL Logo">San Jose PWHL</a>
             <a href="pwhl_SEA.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-pwhlseattle.png" alt="PWHL Seattle Logo">PWHL Seattle</a>
             <a href="pwhl_TOR.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-sceptres.png" alt="Toronto Sceptres Logo">Toronto Sceptres</a>
             <a href="pwhl_VAN.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-pwhlvancouver.png" alt="PWHL Vancouver Logo">PWHL Vancouver</a>

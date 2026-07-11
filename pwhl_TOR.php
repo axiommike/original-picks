@@ -68,7 +68,7 @@
                 <h2>Toronto Sceptres</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> <i>Troy Ryan</i></h3>
+                    <h3><strong>Coach:</strong> <i>Pascal Rheaume</i></h3>
                     <h3><strong>General Manager:</strong> <i>Gina Kingsbury</i></h3>
                  </div>  
 

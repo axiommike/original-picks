@@ -52,7 +52,7 @@
     <!--====== Table ======-->
     <?php include 'table_pwhl.php'; ?>
 
-    <title>PWHL Seattle - PWHL Rosters - NHL Original Picks</title>
+    <title>Seattle Torrent - PWHL Rosters - NHL Original Picks</title>
 </head>
 
 <body>
@@ -65,30 +65,30 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>PWHL Seattle</h2>
+                <h2>Seattle Torrent</h2>
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> <i>Christine Bumstead</i></h3>
                     <h3><strong>General Manager:</strong> <i>Meghan Turner</i></h3>
                  </div>  
 
-                <img src="images/logo-pwhlseattle.png" alt="Title Logo">
+                <img src="images/logo-torrent.png" alt="Title Logo">
             </div>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="pwhl_OTT.php" class="w3-button w3-text-black">&#10094; Ottawa Charge</a>
+                <a href="pwhl_SJ.php" class="w3-button w3-text-black">&#10094; San Jose PWHL</a>
                 <a href="pwhl_TOR.php" class="w3-button w3-right w3-text-black">Toronto Sceptres &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateTable($pdo, 'PWHL Seattle', 'F', 40, 'Forwards', 6); ?>
+            <?php generateTable($pdo, 'Seattle Torrent', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateTable($pdo, 'PWHL Seattle', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateTable($pdo, 'Seattle Torrent', 'D', 20, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
-            <?php generateTable($pdo, 'PWHL Seattle', 'G', 10, 'Goalies', 1); ?>
+            <?php generateTable($pdo, 'Seattle Torrent', 'G', 10, 'Goalies', 1); ?>
 
         </div>
     </header>

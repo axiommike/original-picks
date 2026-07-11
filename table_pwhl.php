@@ -17,7 +17,7 @@ function generateTable($pdo, $signedTeam, $position, $limit, $title, $averageCou
     // Display the number of players next to the table title
     echo "<h3>$title <span style='font-size: 20px;'>- $playerCount</span></h3>";
     echo "<table class='sortable custom-table'>";
-    echo "<thead style='background-color: black; color: white;'>";
+    echo "<thead>";
     echo "<tr><th class='w3-center'>#</th><th class='w3-left-align'>&nbsp;&nbsp;&nbsp;Player Name</th><th class='w3-center'>Drafted Team</th><th class='w3-center'>Cap Hit</th><th class='w3-center'>Term</th><th class='w3-center'>Rights</th><th class='w3-center'>PWHL Rating</th></tr>";
     echo "</thead>";
     echo "<tbody class='w3-text-white w3-centered' id='tableContent'>";

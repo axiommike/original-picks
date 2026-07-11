@@ -52,7 +52,7 @@
     <!--====== Table ======-->
     <?php include 'table_pwhl.php'; ?>
 
-    <title>PWHL Vancouver - PWHL Rosters - NHL Original Picks</title>
+    <title>Detroit PWHL - PWHL Rosters - NHL Original Picks</title>
 </head>
 
 <body>
@@ -65,15 +65,19 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>PWHL Vancouver</h2>
+                <h2>Detroit PWHL</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> <i>VACANT</i></h3>
-                    <h3><strong>General Manager:</strong> <i>Cara Gardner Morey</i></h3>
+                    <h3><strong>Coach:</strong> <i>Josh Sciba</i></h3>
+                    <h3><strong>General Manager:</strong> <i>Manon Rheaume</i></h3>
                  </div>  
 
-                <img src="images/logo-pwhlvancouver.png" alt="Title Logo">
+                <img src="images/logo-detroit.png" alt="Title Logo">
             </div>
+
+            <!--====== Average Ratings ======-->
+            <?php $teamName = 'Detroit PWHL'; ?>
+            <?php include 'averagePWHL_ratings.php'; ?>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
@@ -81,19 +85,20 @@
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateTable($pdo, 'PWHL Vancouver', 'F', 40, 'Forwards', 6); ?>
+            <?php generateTable($pdo, 'Detroit PWHL', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateTable($pdo, 'PWHL Vancouver', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateTable($pdo, 'Detroit PWHL', 'D', 20, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
-            <?php generateTable($pdo, 'PWHL Vancouver', 'G', 10, 'Goalies', 1); ?>
+            <?php generateTable($pdo, 'Detroit PWHL', 'G', 10, 'Goalies', 1); ?>
 
         </div>
     </header>
 
     <!--====== JS ======-->
     <script src="js/navbar.js"></script>
+    <script src="js/extras.js"></script>
 
 </body>
 </html>

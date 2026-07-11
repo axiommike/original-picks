@@ -36,13 +36,13 @@
 
         .custom-table th {
             color: #fff; /* Change to your desired text color */
-            background-color: #0f4777;
+            background-color: #164734;
         }
 
         /* Image Size */
         .title-logo img {
-            width: 100px; 
-            height: 100px; 
+            width: 90px; 
+            height: 90px; 
         }
     </style>
 
@@ -52,7 +52,7 @@
     <!--====== Table ======-->
     <?php include 'table_pwhl.php'; ?>
 
-    <title>PWHL Vancouver - PWHL Rosters - NHL Original Picks</title>
+    <title>Vancouver Goldeneyes - PWHL Rosters - NHL Original Picks</title>
 </head>
 
 <body>
@@ -65,35 +65,40 @@
         <!--====== Table ======-->
         <div class="w3-responsive">
             <div class="title-logo">
-                <h2>PWHL Vancouver</h2>
+                <h2>Vancouver Goldeneyes</h2>
 
                 <div class="team-info">
                     <h3><strong>Coach:</strong> <i>VACANT</i></h3>
                     <h3><strong>General Manager:</strong> <i>Cara Gardner Morey</i></h3>
                  </div>  
 
-                <img src="images/logo-pwhlvancouver.png" alt="Title Logo">
+                <img src="images/logo-goldeneyes.png" alt="Title Logo">
             </div>
+
+            <!--====== Average Ratings ======-->
+            <?php $teamName = 'Vancouver Goldeneyes'; ?>
+            <?php include 'averagePWHL_ratings.php'; ?>
 
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
-                <a href="pwhl_TOR.php" class="w3-button w3-text-black">&#10094; Toronto Sceptres</a>
+                <a href="pwhl_MIN.php" class="w3-button w3-right w3-text-black">Minnesota Frost &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->
-            <?php generateTable($pdo, 'PWHL Vancouver', 'F', 40, 'Forwards', 6); ?>
+            <?php generateTable($pdo, 'Vancouver Goldeneyes', 'F', 40, 'Forwards', 6); ?>
 
             <!--====== Defensemen Table ======-->
-            <?php generateTable($pdo, 'PWHL Vancouver', 'D', 20, 'Defensemen', 3); ?>
+            <?php generateTable($pdo, 'Vancouver Goldeneyes', 'D', 20, 'Defensemen', 3); ?>
 
             <!--====== Goalies Table ======-->
-            <?php generateTable($pdo, 'PWHL Vancouver', 'G', 10, 'Goalies', 1); ?>
+            <?php generateTable($pdo, 'Vancouver Goldeneyes', 'G', 10, 'Goalies', 1); ?>
 
         </div>
     </header>
 
     <!--====== JS ======-->
     <script src="js/navbar.js"></script>
+    <script src="js/extras.js"></script>
 
 </body>
 </html>

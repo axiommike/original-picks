@@ -68,7 +68,7 @@
                 <h2>PWHL Seattle</h2>
 
                 <div class="team-info">
-                    <h3><strong>Coach:</strong> <i>Steve O'Rourke</i></h3>
+                    <h3><strong>Coach:</strong> <i>Christine Bumstead</i></h3>
                     <h3><strong>General Manager:</strong> <i>Meghan Turner</i></h3>
                  </div>  
 

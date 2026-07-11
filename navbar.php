@@ -195,9 +195,9 @@ switch ($page) {
             <a href="pwhl_NYS.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-sirens.png" alt="New York Sirens Logo">New York Sirens</a>
             <a href="pwhl_OTT.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-charge.png" alt="Ottawa Charge Logo">Ottawa Charge</a>
             <a href="pwhl_SJ.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-sanjose.png" alt="San Jose PWHL Logo">San Jose PWHL</a>
-            <a href="pwhl_SEA.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-pwhlseattle.png" alt="PWHL Seattle Logo">PWHL Seattle</a>
+            <a href="pwhl_SEA.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-torrent.png" alt="Seattle Torrent Logo">Seattle Torrent</a>
             <a href="pwhl_TOR.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-sceptres.png" alt="Toronto Sceptres Logo">Toronto Sceptres</a>
-            <a href="pwhl_VAN.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-pwhlvancouver.png" alt="PWHL Vancouver Logo">PWHL Vancouver</a>
+            <a href="pwhl_VAN.php" class="dropdown-link"><img class="dropdown-img" src="images/logo-goldeneyes.png" alt="Vancouver Goldeneyes Logo">Vancouver Goldeneyes</a>
         </div>
     </div>   
 

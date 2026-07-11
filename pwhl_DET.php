@@ -36,7 +36,7 @@
 
         .custom-table th {
             color: #fff; /* Change to your desired text color */
-            background-color: #0f4777;
+            background-color: ##c02b2d;
         }
 
         /* Image Size */

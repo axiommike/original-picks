@@ -36,7 +36,7 @@
 
         .custom-table th {
             color: #fff; /* Change to your desired text color */
-            background-color: ##c02b2d;
+            background-color: #c02b2d;
         }
 
         /* Image Size */
@@ -82,7 +82,7 @@
             <!--====== Table Pagination ======-->
             <div class="w3-bar w3-transparent">
                 <a href="pwhl_BOS.php" class="w3-button w3-text-black">&#10094; Boston Fleet</a>
-                <a href="pwhl_MIN.php" class="w3-button w3-right w3-text-black">Minnesota Frost &#10095;</a>
+                <a href="pwhl_HAM.php" class="w3-button w3-right w3-text-black">Hamilton PWHL &#10095;</a>
             </div>
 
             <!--====== Forwards Table ======-->

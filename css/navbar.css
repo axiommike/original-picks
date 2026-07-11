@@ -190,6 +190,18 @@
     background-color: #164734;
 }
 
+.navbar.pwhl_DET {
+    background-color: #c02b2d;
+}
+
+.navbar.pwhl_HAM {
+    background-color: #5e0a19;
+}
+
+.navbar.pwhl_LV {
+    background-color: #717237;
+}
+
 .navbar.pwhl_MIN {
     background-color: #2d1a47;
 }
@@ -206,6 +218,10 @@
     background-color: #a7192f;
 }
 
+.navbar.pwhl_SJ {
+    background-color: #f39c46;
+}
+
 .navbar.pwhl_SEA {
     background-color: #0a5258;
 }
@@ -219,6 +235,7 @@
 }
 
 .navbar.database_nhl,
+.navbar.database_rfa,
 .navbar.database_fa {
     background-color: #000;
 }
@@ -370,8 +387,8 @@
 }
 
 .dropdown-content.pwhl {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     margin-left: calc(var(--dropdown-margin-left) + 510px);
 }
 

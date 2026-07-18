@@ -206,8 +206,8 @@ switch ($page) {
         <button class="dropbtn" onclick="toggleDropdown(this)">Players</button>
         <div class="dropdown-content players">
             <a href="database_nhl.php" class="dropdown-link"><img class="dropdown-img" src="images/nhl.png" alt="Player Database Logo">NHL Database</a>
-            <a href="database_rfa.php" class="dropdown-link"><img class="dropdown-img" src="images/nhl.png" alt="NHL Free Agents Logo">NHL Restricted Free Agents</a>
-            <a href="database_fa.php" class="dropdown-link"><img class="dropdown-img" src="images/nhl.png" alt="NHL Free Agents Logo">NHL Free Agents</a>
+            <a href="database_rfa.php" class="dropdown-link"><img class="dropdown-img" src="images/nhl.png" alt="NHL Free Agents Logo">Restricted Free Agents</a>
+            <a href="database_fa.php" class="dropdown-link"><img class="dropdown-img" src="images/nhl.png" alt="NHL Free Agents Logo">Free Agents</a>
         </div>
     </div> 
 

@@ -39,7 +39,7 @@
       <h1>ORIGINAL PICKS</h1>
       <p>NHL 27 Players and Rosters<br>Originally Drafted Teams<br>Affiliated Teams Throughout History</p>
       <div class="button-container">
-        <button type="button"><span></span><a href="https://www.ea.com/games/nhl/nhl-25" target="_blank">NHL 27</a></button>
+        <button type="button"><span></span><a href="https://www.ea.com/games/nhl/nhl-27" target="_blank">NHL 27</a></button>
         <button type="button"><span></span><a href="https://www.youtube.com/@originalpicks/videos" target="_blank">YOUTUBE</a></button>
       </div>
     </main>
